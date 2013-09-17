@@ -1,0 +1,30 @@
+
+\documentclass[10pt,twocolumn]{article}
+
+\usepackage[hscale=0.7,vscale=0.9]{geometry}
+\usepackage[utf8]{inputenc}
+
+\pagenumbering{gobble}
+
+\title{Football Match Prediction and Betting}
+\author{Peter Gleeson \and Colby Prior \and Peter Frøystad \and Eren Hükümdar}
+\setcounter{secnumdepth}{0}
+
+\begin{document}
+  \maketitle
+
+\subsection{Project Goals}
+This project will use EPL data to create a model that predicts match results and intelligently place bets where appropriate. The goal is to to demonstrate a net profit from simulated betting over the course of a season. In order to achieve this goal we will need to develop an accurate match prediction model and experiment with different betting behaviours. 
+\subsection{System Description and Application}
+The system is designed to use previous years football data from the English Premier League (EPL) to predict match results and to simulate betting based on the predictions. One application for a system such as this would be to provide betting tips. There are many successful websites in existence that provide betting tips on sports for a subscription fee.\footnote{https://betegy.com/}
+\subsection{Required Resources}
+This project will require detailed statistics and betting odds on each match in the EPL. This requirement has already been satisfied with EPL statistics and odds over the last two decades freely available in CSV format from a UK football website.\footnote{http://www.football-data.co.uk/englandm.php} Pending our findings further information may be required. For example individual player ratings and information could be taken from other sources with webscraping techniques.\footnote{http://www.whoscored.com/}
+\subsection{Method and Algorithm}
+We will be using an iterative approach to the investigation in this project. We will collect some initial results from a number of algorithms with the resources already available. These results will be evaluated and the algorithms adjusted or new features introduced before rerunning. It is important that the results of the iterations are comparable to one another. We aim to use WEKA to run different techniques on the dataset. Using tools such as WEKA allows for more time to be spent on data preprocessing and feature selection. Specifically, we will be focusing on techniques that assign a probability to each class such as a bayesian classifier. This way we can account for uncertainty in the prediction when simulating betting on matches.
+\subsection{Demonstration}
+Our aim for the demonstration is to run our algorithm and betting simulator over a test data set (EPL Season) to show a net profit or loss. This will be visualised by a time vs. bankroll graph.  
+\subsection{Evaluation}
+The primary means of evaluation will be based on net profit or loss from betting. A poor evaluation of that metric could indicate the prediction model is not performing well. This would be easy to verify by investigating how many correct predictions it was making on the games. The other possibility is the betting algorithm failing to place bets in an intelligent manner. If that is the case then the parameters used by the algorithm will be adjusted. Our evaulation will only consider a range of three to four years worth of EPL results. This is due to the rapid rotation of players and managers in football teams. By considering a smaller range of years we hope to eliminate some noise and outliers outliers from our data set to produce a consistent evaluation.
+\subsection{Conclusion}
+If our algorithms are effective then we aim to experiment with different types of betting. Over/Under bets, Multibets can be explored if time permits. We can also improve our efficiency by experimenting with adding new features to our dataset.
+\end{document}
