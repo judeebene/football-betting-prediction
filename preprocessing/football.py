@@ -72,35 +72,36 @@ class Team(object):
 
 	def __init__(self, name):
 		self.results = []
-		self.results_tally = []
 		self.name = name
 
 	def addPoints(self, points):		
 		self.results.append(points)
-		# add to the points tally
-		current = 0
-		if (len(self.results_tally) > 0):
-			current = self.results_tally[-1]
-		self.results_tally.append(current + points)
 
 
 	""" returns the teams current form
 	"""
 	def getCurrentForm(self, gameRange):		
-		points = 0
+		# return average if no games played yet
+		if len(self.results) == 0: 
+			return Constants.average_form
+
+		# adjust the range of games considered if nessessary
 		adjustedRange = gameRange
-		# no games played yet
-		if len(self.results_tally) == 0: 
-			return Constants.average_form		
-		elif len(self.results_tally) < gameRange:
-			adjustedRange = len(self.results_tally)
-			points = self.results_tally[-1]
-		else:			
-			points = self.results_tally[-1] - self.results_tally[-gameRange]			
-		# calculate form based on points difference			
-		if points < adjustedRange:
+		if len(self.results) < gameRange:
+			adjustedRange = len(self.results)
+
+		# calculate form points total
+		formPoints = 0
+		for i in range(-adjustedRange, -1):
+			if self.results[i] == 3: # win
+				formPoints += 2
+			elif self.results[i] == 1: # draw
+				formPoints += 1
+
+		# determine form
+		if formPoints <=  adjustedRange / 3:
 			return Constants.poor_form
-		elif points < adjustedRange * 2:
+		elif formPoints <= adjustedRange / 3 * 2:
 			return Constants.average_form
 		else:
 			return Constants.good_form
