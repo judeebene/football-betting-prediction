@@ -34,27 +34,25 @@ class Ladder(object):
 
 class Game(object):
 
-	def __init__(self, features):
+	def __init__(self, attributes):
 		self.attributes = {}
+		self.ordered_keys = attributes
 		for attr in attributes:
-			self.attributes.append([attr, None])
+			self.attributes[attr] = None
 
 	def setAttr(self, attr, value):
-		for i, a in enumerate(attributes):
-			if a == attr:
-				self.attributes[i][1] = value
+		self.attributes[attr] = value
 
 	def getAttr(self, attr):
-		for i, a in enumerate(attributes):
-			if a == attr:
-				return self.attributes[i][1]
+		return self.attributes[attr]
 
 	def toCSVRow(self):
 		row = ""
-		for attr in self.attributes:
-			row += str(attr[1])
-			if attr != self.attributes[-1] : row += ","
-		row += "\n"
+		for key in self.ordered_keys:
+			row += str(self.attributes[key]) + ","
+		# remove last comma
+		if len(row) > 0:
+			row = row[:-1] + "\n"
 		return row
 
 	def getOppositeResult(self, result):

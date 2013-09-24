@@ -7,14 +7,16 @@ import football
 
 class FootballTestSuite(unittest.TestCase):
 
+	# Team unit tests
+
     def test_team_constructor_shouldCreateTeam(self):
     	# set up
     	teamname = "Arsenal"
     	# exercise
     	team = football.Team(teamname)
     	# verify
-        self.assertEqual(team.name, teamname)
-        self.assertEqual(len(team.results), 0)
+        assert team.name is teamname
+        assert len(team.results) is 0
 
     def test_team_addPoints_shouldAdd3Points(self):
     	# set up
@@ -23,8 +25,8 @@ class FootballTestSuite(unittest.TestCase):
     	# exercise
     	team.addPoints(3)
     	# verify
-        self.assertEqual(len(team.results), 1)
-        self.assertEqual(team.results[0], 3)
+        assert len(team.results) is 1
+        assert team.results[0] is 3
 
     def test_team_getCurrentForm_shouldGetGoodForm(self):
     	# set up
@@ -37,7 +39,8 @@ class FootballTestSuite(unittest.TestCase):
     	team.addPoints(3)
     	# exercise
     	form = team.getCurrentForm(3)
-    	self.assertEqual(form, goodform)
+    	# verify
+    	assert form is goodform
 
     def test_team_getCurrentForm_shouldGetAverageForm(self):
     	# set up
@@ -49,7 +52,8 @@ class FootballTestSuite(unittest.TestCase):
     	team.addPoints(3)
     	# exercise
     	form = team.getCurrentForm(3)
-    	self.assertEqual(form, football.Constants.average_form)
+    	# verify
+    	assert form is football.Constants.average_form
 
     def test_team_getCurrentForm_shouldGetPoorForm(self):
     	# set up
@@ -61,7 +65,48 @@ class FootballTestSuite(unittest.TestCase):
     	team.addPoints(1)
     	# exercise
     	form = team.getCurrentForm(3)
-    	self.assertEqual(form, football.Constants.poor_form)
+    	# verify
+    	assert form is football.Constants.poor_form
+
+	# Game unit tests
+
+    def test_game_constructor_shouldCreateGame(self):
+    	# set up
+    	attrs = ["home team", "away team", "result"]
+    	# exerise
+    	g = football.Game(attrs)
+    	# verify
+    	assert len(g.attributes) is 3
+
+    def test_game_setgetAttr_shouldSetAndGetAttributes(self):
+    	# set up
+    	teamname = "Arsenal"
+    	attrs = ["home team", "away team", "result"]
+    	g = football.Game(attrs)
+    	# exerise
+    	g.setAttr("home team", teamname)
+    	team = g.getAttr("home team")
+    	# verify
+    	assert team is teamname
+
+    def test_game_toCSVRow_shouldReturnValidCsvRow(self):
+    	# set up
+    	home = "Arsenal"
+    	away = "Man U"
+    	result = "H"
+    	attrs = ["home team", "away team", "result"]
+    	expected = "{0},{1},{2}\n".format(home, away, result)
+    	g = football.Game(attrs)
+    	# set the attributes
+    	g.setAttr("home team", home)
+    	g.setAttr("away team", away)
+    	g.setAttr("result", result)
+    	# excercise
+    	row  = g.toCSVRow()
+    	# verify
+    	assert row == expected
+
+
 
 
 def main():
