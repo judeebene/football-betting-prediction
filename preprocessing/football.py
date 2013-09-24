@@ -12,8 +12,8 @@ class Table(object):
 	def addTeam(self, team):
 		self.teams[team.name] = team
 
-	def getTeam(self, team):
-		return self.teams[team]
+	def getTeam(self, teamname):
+		return self.teams[teamname]
 
 	""" Returns all the teams on the table in decending table position
 	"""
@@ -115,12 +115,22 @@ class Constants(object):
 	# form
 	good_form = "good"
 	average_form = "average"
-	poor_form = "form"
+	poor_form = "poor"
+
+	# csv headings
+	date = "Date"
+	hometeam = "HomeTeam"
+	awayteam = "AwayTeam"
+	homeForm = "FormH"
+	awayForm = "FormA"
+	homePosition = "PositionH"
+	awayPosition = "PositionA"
+	result = "FTR"
 
 	# classes
-	home_win = "H"
+	homeWin = "H"
 	draw = "D"
-	away_win = "A"
+	awayWin = "A"
 
 	def __init__(self):
 		# the features of the dataset
