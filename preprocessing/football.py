@@ -1,7 +1,7 @@
 import sys
 import re
 
-class Ladder(object):
+class Table(object):
 	
 	def __init__(self):
 		self.teams = {}
@@ -10,27 +10,28 @@ class Ladder(object):
 		return str(self.teams)
 
 	def addTeam(self, team):
-		self.teams[team] = Team(team)
+		self.teams[team.name] = team
+
+	def getTeam(self, team):
+		return self.teams[team]
+
+	""" Returns all the teams on the table in decending table position
+	"""
+	def getTeams(self):
+		return sorted(self.teams.values(), key=lambda team: team.getCurrentPoints(), reverse=True)
 
 	def getTeamPosition(self, team):
 		position = 0
-		teamPoints = 0
-		if len(self.teams[team].results) > 0 :
-			teamPoints = self.teams[team].results[-1]
-		for key, oppTeam in self.teams.iteritems() :
-			if key == team: continue
-			if oppTeam.results[-1] > teamPoints :
+		# variable used to determine position when teams have same points
+		lastTotal = -1
+		for t in self.getTeams():
+			teamTotal = t.getCurrentPoints()
+			if lastTotal != teamTotal:
 				position += 1
-		return position
+			if t.name == team: return position
+			# updated the lastTotal and position
+			lastTotal = teamTotal
 
-	def getTeamForm(self, team, gameRange):
-		return self.teams[team].getCurrentForm(gameRange)
-
-	def setResults(self, teamPointPairs):
-		for team, points in teamPointPairs:
-			if team not in self.teams:
-				self.addTeam(team)
-			self.teams[team].addPoints(points)
 
 class Game(object):
 
@@ -75,6 +76,12 @@ class Team(object):
 	def addPoints(self, points):		
 		self.results.append(points)
 
+	""" returns the teams total points
+	"""
+	def getCurrentPoints(self):
+		tally = 0
+		for r in self.results: tally += r
+		return tally
 
 	""" returns the teams current form
 	"""
