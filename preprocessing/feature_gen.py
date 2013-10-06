@@ -12,7 +12,8 @@ class FeatureGen(object):
 	def __init__(self, path):
 		self.path = path
 		self.games = []
-		self.features = []
+		self.features = Constants.features
+		self.columns = []
 		self.table = football.Table()
 		# set up everything
 		self.setup()
@@ -22,13 +23,13 @@ class FeatureGen(object):
 		teamnames = []
 		homeIndex = 0
 		# set up features and table
-		with open(self.path, 'r') as statCsv:
+		with open(self.path, 'rb') as statCsv:
 			reader = csv.reader(statCsv)
 			for row in reader:
 				# if we are on the first line these are the features
 				if reader.line_num == 1:
-					self.features = row
-					homeIndex = self.features.index(Constants.hometeam)
+					self.columns = row
+					homeIndex = self.columns.index(Constants.hometeam)
 				else:
 					teamnames.append(row[homeIndex])
 
@@ -45,44 +46,93 @@ class FeatureGen(object):
 
 	def generate(self):
 		# open the csv
-		with open(self.path, 'r') as statCsv:
+		with open(self.path, 'rb') as statCsv:
 			reader = csv.reader(statCsv)
 			# print feature row
 			self.printFeatures()
 			for row in reader:
 				if (reader.line_num == 1) : continue
-				# create a new game
+				# create a new game and a game to hold data from csv row
 				game = football.Game(self.features)
-				# set inital values
-				for i in range(0, len(self.features)-1) : game.setAttr(self.features[i], row[i])
-				# get the home and away teamnames
-				home = game.getAttr(Constants.hometeam)
-				away = game.getAttr(Constants.awayteam)
+				rowGame = football.Game(self.columns)
+				# populate the row variable with inital values from the row
+				for i in range(0, len(self.columns)) : rowGame.setAttr(self.columns[i], row[i])
+				# set up the teams and teamnames
+				homeTeam = rowGame.getAttr(Constants.hometeam)
+				awayTeam = rowGame.getAttr(Constants.awayteam)
+				home = self.table.getTeam(homeTeam)
+				away = self.table.getTeam(awayTeam)
+				# set the date field
+				self.setDate(game, rowGame)
+				# set the game teams
+				self.setTeamnames(game, home, away)
 				# set the form fields
-				hForm = self.table.getTeam(home).getCurrentForm(formRange)
-				aForm = self.table.getTeam(away).getCurrentForm(formRange)
-				game.setAttr(Constants.homeForm, hForm)
-				game.setAttr(Constants.awayForm, aForm)
+				self.setForm(game, home, away)
 				# set the table position fields
-				hPos = self.table.getTeamPosition(home)
-				aPos = self.table.getTeamPosition(away)
-				game.setAttr(Constants.homePosition, hPos)
-				game.setAttr(Constants.awayPosition, aPos)
+				self.setTablePosition(game, home, away)
+				# set the shots and shots on target per game
+				self.setShots(game, rowGame, home, away)
 				# add the game to the list
 				self.games.append(game)
 				# update teams based on result
-				result = game.getAttr(Constants.result)
-				if result == Constants.homeWin:
-					self.table.getTeam(home).addPoints(3)
-					self.table.getTeam(away).addPoints(0)
-				elif result == Constants.awayWin:
-					self.table.getTeam(home).addPoints(0)
-					self.table.getTeam(away).addPoints(3)
-				else: # draw
-					self.table.getTeam(home).addPoints(1)
-					self.table.getTeam(away).addPoints(1)
+				self.setResult(game, rowGame, home, away)
 				# print the game
 				sys.stdout.write(game.toCSVRow())
+
+	def setDate(self, game, rowGame):
+		game.setAttr(Constants.date, rowGame.getAttr(Constants.date))
+
+	def setTeamnames(self, game, home, away):
+		game.setAttr(Constants.hometeam, home.name)
+		game.setAttr(Constants.awayteam, away.name)
+
+	def setForm(self, game, home, away):
+		hForm = home.getCurrentForm(formRange)
+		aForm = away.getCurrentForm(formRange)
+		game.setAttr(Constants.homeForm, hForm)
+		game.setAttr(Constants.awayForm, aForm)
+
+	def setTablePosition(self, game, home, away):
+		hPos = self.table.getTeamPosition(home.name)
+		aPos = self.table.getTeamPosition(away.name)
+		game.setAttr(Constants.homePosition, hPos)
+		game.setAttr(Constants.awayPosition, aPos)
+
+	def setShots(self, game, rowGame, home, away):
+		# add the current shot per game stats to the game object
+		hShots = home.getShotsPerGame()
+		aShots = away.getShotsPerGame()
+		hTShots = home.getShotsOnTargetPerGame()
+		aTShots = away.getShotsOnTargetPerGame()
+		game.setAttr(Constants.homeShots + Constants.perGame, round(hShots, 2))
+		game.setAttr(Constants.awayShots + Constants.perGame, round(aShots, 2))
+		game.setAttr(Constants.homeTargetShots + Constants.perGame, round(hTShots, 2))
+		game.setAttr(Constants.awayTargetShots + Constants.perGame, round(aTShots, 2))
+		# update shots based on game stats
+		# print type(rowGame.getAttr(Constants.awayTargetShots))
+		home.addShots(float(rowGame.getAttr(Constants.homeShots)), 
+			float(rowGame.getAttr(Constants.homeTargetShots)))
+		away.addShots(float(rowGame.getAttr(Constants.awayShots)), 
+			float(rowGame.getAttr(Constants.awayTargetShots)))
+
+	def setResult(self, game, rowGame, home, away):
+		# get the result
+		result = rowGame.getAttr(Constants.result)
+		# set the result
+		game.setAttr(Constants.result, result)
+		# update team points
+		if result == Constants.homeWin:
+			home.addPoints(3)
+			away.addPoints(0)
+		elif result == Constants.awayWin:
+			home.addPoints(0)
+			away.addPoints(3)
+		else: # draw
+			home.addPoints(1)
+			away.addPoints(1)
+
+
+
 
 
 

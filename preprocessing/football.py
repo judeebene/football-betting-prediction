@@ -65,16 +65,47 @@ class Game(object):
 			return result
 
 	def __str__(self):
-		return str(self.attributes)
+		strGame = ""
+		for key in self.ordered_keys:
+			strGame += key + ":" + str(self.attributes[key]) + ", "
+		# remove last comma
+		if len(strGame) > 0:
+			strGame = strGame[:-2]
+		return strGame
 
 class Team(object):
 
 	def __init__(self, name):
 		self.results = []
 		self.name = name
+		self.shots = [] # total shots
+		self.targetShots = [] # shots on target
 
 	def addPoints(self, points):		
 		self.results.append(points)
+
+	def addShots(self, total, onTarget):
+		self.shots.append(total)
+		self.targetShots.append(onTarget)
+
+	""" returns shots per game for the team
+	"""
+	def getShotsPerGame(self):
+		if len(self.shots) == 0:
+			return 0.0
+		total = 0.0
+		for s in self.shots: total += s
+		return total/len(self.shots)
+
+	""" returns shots on target per game for the team
+	"""
+	def getShotsOnTargetPerGame(self):
+		if len(self.targetShots) == 0:
+			return 0.0
+		total = 0.0
+		for s in self.targetShots: total += s
+		return total/len(self.targetShots)
+
 
 	""" returns the teams total points
 	"""
@@ -126,12 +157,20 @@ class Constants(object):
 	homePosition = "PositionH"
 	awayPosition = "PositionA"
 	result = "FTR"
+	homeShots = "HS"
+	awayShots = "AS"
+	homeTargetShots = "HST"
+	awayTargetShots = "AST"
+	perGame = "PG"
 
 	# classes
 	homeWin = "H"
 	draw = "D"
 	awayWin = "A"
 
-	def __init__(self):
-		# the features of the dataset
-		self.features = []
+	# the features of the dataset
+	features = [date, hometeam, awayteam,
+	homeForm, awayForm, homePosition, awayPosition,
+	homeShots + perGame, awayShots + perGame, 
+	homeTargetShots + perGame, awayTargetShots + perGame, 
+	result]

@@ -15,8 +15,8 @@ class FootballTestSuite(unittest.TestCase):
     	# exercise
     	team = football.Team(teamname)
     	# verify
-        assert team.name == teamname
-        assert len(team.results) == 0
+        self.assertEqual(team.name, teamname)
+        self.assertEqual(len(team.results), 0)
 
     def test_team_addPoints_shouldAdd3Points(self):
     	# set up
@@ -25,8 +25,8 @@ class FootballTestSuite(unittest.TestCase):
     	# exercise
     	team.addPoints(3)
     	# verify
-        assert len(team.results) == 1
-        assert team.results[0] == 3
+        self.assertEqual(len(team.results), 1)
+        self.assertEqual(team.results[0], 3)
 
     def test_team_getCurrentPoints_shouldGetPoints(self):
     	# set up
@@ -36,7 +36,7 @@ class FootballTestSuite(unittest.TestCase):
     	team.addPoints(3)
     	team.addPoints(1)
     	# verify
-        assert team.getCurrentPoints() == 4
+        self.assertEqual(team.getCurrentPoints(), 4)
 
 
     def test_team_getCurrentForm_shouldGetGoodForm(self):
@@ -51,7 +51,7 @@ class FootballTestSuite(unittest.TestCase):
     	# exercise
     	form = team.getCurrentForm(3)
     	# verify
-    	assert form == goodform
+    	self.assertEqual(form, goodform)
 
     def test_team_getCurrentForm_shouldGetAverageForm(self):
     	# set up
@@ -64,7 +64,7 @@ class FootballTestSuite(unittest.TestCase):
     	# exercise
     	form = team.getCurrentForm(3)
     	# verify
-    	assert form == football.Constants.average_form
+    	self.assertEqual(form, football.Constants.average_form)
 
     def test_team_getCurrentForm_shouldGetPoorForm(self):
     	# set up
@@ -77,7 +77,29 @@ class FootballTestSuite(unittest.TestCase):
     	# exercise
     	form = team.getCurrentForm(3)
     	# verify
-    	assert form == football.Constants.poor_form
+    	self.assertEqual(form, football.Constants.poor_form)
+
+    def test_team_getShotsPerGame_shouldGetAverageShots(self):
+    	# set up
+    	teamname = "Arsenal"
+    	team = football.Team(teamname)
+    	team.addShots(6, 3)
+    	team.addShots(6, 3)
+    	# exercise
+    	shots = team.getShotsPerGame()
+    	# verify
+    	self.assertEqual(shots, 6)
+
+    def test_team_getShotsOnTargetPerGame_shouldGetAverageShots(self):
+    	# set up
+    	teamname = "Arsenal"
+    	team = football.Team(teamname)
+    	team.addShots(6, 3)
+    	team.addShots(6, 2)
+    	# exercise
+    	shots = team.getShotsOnTargetPerGame()
+    	# verify
+    	self.assertEqual(shots, 2.5)
 
 	# Game unit tests
 
@@ -87,7 +109,7 @@ class FootballTestSuite(unittest.TestCase):
     	# exerise
     	g = football.Game(attrs)
     	# verify
-    	assert len(g.attributes) == 3
+    	self.assertEqual(len(g.attributes), 3)
 
     def test_game_setgetAttr_shouldSetAndGetAttributes(self):
     	# set up
@@ -98,7 +120,7 @@ class FootballTestSuite(unittest.TestCase):
     	g.setAttr("home team", teamname)
     	team = g.getAttr("home team")
     	# verify
-    	assert team == teamname
+    	self.assertEqual(team, teamname)
 
     def test_game_toCSVRow_shouldReturnValidCsvRow(self):
     	# set up
@@ -115,7 +137,7 @@ class FootballTestSuite(unittest.TestCase):
     	# excercise
     	row  = g.toCSVRow()
     	# verify
-    	assert row == expected
+    	self.assertEqual(row, expected)
 
     # Table unit tests
 
@@ -123,7 +145,7 @@ class FootballTestSuite(unittest.TestCase):
     	# exercise
     	t = football.Table()
     	# verify
-    	assert len(t.teams) == 0
+    	self.assertEqual(len(t.teams), 0)
 
     def test_table_addTeam_shouldAddTeam(self):
     	# setup
@@ -133,8 +155,8 @@ class FootballTestSuite(unittest.TestCase):
     	# exercise
     	t.addTeam(team)
     	# verify
-    	assert len(t.teams) == 1
-    	assert t.teams[teamname] != None
+    	self.assertEqual(len(t.teams), 1)
+    	self.assertNotEqual(t.teams[teamname], None)
 
     def test_table_getTeam_shouldGetTeam(self):
     	# setup
@@ -144,8 +166,8 @@ class FootballTestSuite(unittest.TestCase):
     	# exercise
     	team = t.getTeam(teamname)
     	# verify
-    	assert team != None
-    	assert team.name == teamname
+    	self.assertNotEqual(team, None)
+    	self.assertEqual(team.name, teamname)
 
     def test_table_getTeams_shouldGetTeamsInOrder(self):
     	# setup teams
@@ -160,9 +182,9 @@ class FootballTestSuite(unittest.TestCase):
     	# exercise
     	teams = t.getTeams()
     	# verify
-    	assert len(teams) == 2
-    	assert teams[0].name == arsenal.name
-    	assert teams[1].name == manu.name
+    	self.assertEqual(len(teams), 2)
+    	self.assertEqual(teams[0].name, arsenal.name)
+    	self.assertEqual(teams[1].name, manu.name)
 
     def test_table_getTeamPosition_shouldReturn2ndPosition(self):
     	# setup teams
@@ -180,7 +202,7 @@ class FootballTestSuite(unittest.TestCase):
     	# exercise
     	pos = t.getTeamPosition(manu.name)
     	# verify
-    	assert pos == 2
+    	self.assertEqual(pos, 2)
 
     def test_table_getTeamPosition_shouldReturnTied1stPosition(self):
     	# setup teams
@@ -200,7 +222,9 @@ class FootballTestSuite(unittest.TestCase):
     	a = t.getTeamPosition(arsenal.name)
     	s = t.getTeamPosition(stoke.name)
     	# verify
-    	assert m == 1 and a == 1 and s == 2
+    	self.assertEqual(m, 1)
+    	self.assertEqual(a, 1)
+    	self.assertEqual(s, 2)
 
 
 
