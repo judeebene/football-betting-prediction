@@ -1,381 +1,381 @@
-Date,HomeTeam,AwayTeam,FormH,FormA,PositionH,PositionA,HSPG,ASPG,HSTPG,ASTPG,FTR
-18/08/12,Arsenal,Sunderland,average,average,1,1,0.0,0.0,0.0,0.0,D
-18/08/12,Fulham,Norwich,average,average,2,2,0.0,0.0,0.0,0.0,H
-18/08/12,Newcastle,Tottenham,average,average,3,3,0.0,0.0,0.0,0.0,H
-18/08/12,QPR,Swansea,average,average,3,3,0.0,0.0,0.0,0.0,A
-18/08/12,Reading,Stoke,average,average,3,3,0.0,0.0,0.0,0.0,D
-18/08/12,West Brom,Liverpool,average,average,3,3,0.0,0.0,0.0,0.0,H
-18/08/12,West Ham,Aston Villa,average,average,3,3,0.0,0.0,0.0,0.0,H
-19/08/12,Man City,Southampton,average,average,3,3,0.0,0.0,0.0,0.0,H
-19/08/12,Wigan,Chelsea,average,average,3,3,0.0,0.0,0.0,0.0,A
-20/08/12,Everton,Man United,average,average,3,3,0.0,0.0,0.0,0.0,H
-22/08/12,Chelsea,Reading,poor,poor,1,2,5.0,9.0,3.0,3.0,H
-25/08/12,Aston Villa,Everton,poor,poor,4,2,10.0,16.0,6.0,7.0,A
-25/08/12,Chelsea,Newcastle,good,poor,1,2,14.0,6.0,7.0,4.0,H
-25/08/12,Man United,Fulham,poor,poor,5,3,12.0,11.0,7.0,9.0,H
-25/08/12,Norwich,QPR,poor,poor,5,5,4.0,20.0,2.0,11.0,D
-25/08/12,Southampton,Wigan,poor,poor,5,5,9.0,12.0,6.0,4.0,A
-25/08/12,Swansea,West Ham,poor,poor,3,3,12.0,8.0,8.0,4.0,H
-25/08/12,Tottenham,West Brom,poor,poor,5,3,12.0,15.0,6.0,10.0,D
-26/08/12,Liverpool,Man City,poor,poor,6,4,14.0,20.0,7.0,15.0,D
-26/08/12,Stoke,Arsenal,poor,poor,5,5,6.0,14.0,3.0,4.0,D
-1/9/2012,Man City,QPR,good,poor,3,6,15.5,13.0,10.0,7.5,H
-1/9/2012,Swansea,Sunderland,good,poor,3,7,11.0,3.0,7.5,2.0,D
-1/9/2012,Tottenham,Norwich,poor,poor,7,7,15.0,8.5,8.0,3.0,D
-1/9/2012,West Brom,Everton,good,good,4,3,12.5,17.5,7.5,9.0,H
-1/9/2012,West Ham,Fulham,good,good,4,4,7.5,12.5,5.0,10.0,H
-1/9/2012,Wigan,Stoke,poor,good,4,5,12.0,6.5,6.0,3.5,D
-2/9/2012,Liverpool,Arsenal,poor,good,7,6,14.5,15.0,7.5,5.0,A
-2/9/2012,Newcastle,Aston Villa,good,poor,6,9,8.5,8.5,4.5,4.5,D
-2/9/2012,Southampton,Man United,poor,poor,9,6,11.5,16.0,7.5,9.0,A
-15/09/12,Arsenal,Southampton,average,poor,4,9,13.67,12.67,5.67,7.67,H
-15/09/12,Aston Villa,Swansea,poor,good,8,3,10.0,12.0,6.0,8.33,H
-15/09/12,Fulham,West Brom,average,good,6,3,13.0,13.0,11.0,7.67,H
-15/09/12,Man United,Wigan,average,average,4,5,16.67,11.0,9.0,5.67,H
-15/09/12,Norwich,West Ham,poor,average,7,4,9.0,10.67,3.33,7.33,D
-15/09/12,QPR,Chelsea,poor,good,8,1,11.67,13.0,6.67,6.67,D
-15/09/12,Stoke,Man City,average,good,7,4,9.67,16.67,5.0,10.67,D
-15/09/12,Sunderland,Liverpool,good,poor,8,9,3.5,15.33,2.5,7.67,D
-16/09/12,Reading,Tottenham,good,poor,9,8,8.0,15.0,4.0,8.33,A
-17/09/12,Everton,Newcastle,good,average,5,7,15.67,11.0,7.67,5.0,D
-22/09/12,Chelsea,Stoke,good,average,1,7,13.0,8.25,7.25,4.5,H
-22/09/12,Southampton,Aston Villa,poor,poor,11,7,11.75,11.75,6.75,7.75,H
-22/09/12,Swansea,Everton,good,average,4,4,11.5,16.0,7.5,8.25,A
-22/09/12,West Brom,Reading,good,poor,5,11,12.25,6.67,7.75,3.33,H
-22/09/12,West Ham,Sunderland,average,average,5,9,10.25,4.33,6.5,3.0,D
-22/09/12,Wigan,Fulham,good,poor,8,6,10.25,15.5,5.25,11.75,A
-23/09/12,Liverpool,Man United,poor,good,9,3,16.5,16.75,8.0,9.25,A
-23/09/12,Man City,Arsenal,good,good,5,5,16.25,15.25,10.75,7.25,D
-23/09/12,Newcastle,Norwich,poor,average,7,9,11.0,11.75,5.5,6.0,H
-23/09/12,Tottenham,QPR,average,poor,7,10,16.75,11.25,9.0,6.5,H
-29/09/12,Arsenal,Chelsea,good,good,4,1,14.2,13.8,6.6,7.6,A
-29/09/12,Everton,Southampton,poor,poor,3,8,18.8,11.8,10.4,6.2,H
-29/09/12,Fulham,Man City,average,good,5,5,14.8,15.8,11.2,10.6,A
-29/09/12,Man United,Tottenham,good,good,3,6,15.0,17.0,8.2,10.0,A
-29/09/12,Norwich,Liverpool,average,poor,10,11,11.0,15.8,5.4,8.0,A
-29/09/12,Reading,Newcastle,poor,average,13,7,7.0,12.0,2.75,6.0,D
-29/09/12,Stoke,Swansea,average,poor,10,8,9.2,12.8,4.8,8.2,H
-29/09/12,Sunderland,Wigan,average,poor,10,10,4.25,11.8,2.75,6.0,H
-30/09/12,Aston Villa,West Brom,good,average,10,5,11.0,11.6,6.6,7.0,D
-1/10/2012,QPR,West Ham,poor,good,11,6,10.8,12.2,6.4,7.4,A
-6/10/2012,Chelsea,Norwich,good,poor,1,9,13.17,10.83,7.17,5.67,H
-6/10/2012,Man City,Sunderland,average,average,3,6,16.67,5.6,10.83,3.4,H
-6/10/2012,Swansea,Reading,poor,poor,7,11,12.0,8.4,6.83,3.6,D
-6/10/2012,West Brom,QPR,average,poor,5,12,12.0,11.17,7.0,6.83,H
-6/10/2012,West Ham,Arsenal,average,good,6,7,13.0,14.17,7.83,6.33,A
-6/10/2012,Wigan,Everton,poor,good,11,4,11.17,18.5,5.5,10.17,D
-7/10/2012,Liverpool,Stoke,poor,poor,9,8,14.83,9.33,7.67,4.83,D
-7/10/2012,Newcastle,Man United,good,good,6,4,11.33,15.0,5.5,8.17,A
-7/10/2012,Southampton,Fulham,average,good,11,6,11.17,13.5,5.5,9.83,D
-7/10/2012,Tottenham,Aston Villa,good,average,5,11,15.83,12.33,9.33,6.83,H
-20/10/12,Fulham,Aston Villa,average,poor,6,11,13.57,11.71,9.14,6.57,H
-20/10/12,Liverpool,Reading,average,poor,10,13,15.0,8.33,7.29,4.0,H
-20/10/12,Man United,Stoke,average,average,2,8,14.57,8.71,8.29,4.57,H
-20/10/12,Norwich,Arsenal,poor,poor,13,6,10.29,15.0,5.43,7.43,H
-20/10/12,Swansea,Wigan,poor,poor,9,12,13.86,11.0,8.14,5.57,H
-20/10/12,Tottenham,Chelsea,good,good,4,1,16.86,14.14,9.43,8.0,A
-20/10/12,West Brom,Man City,good,good,4,3,12.14,18.0,7.14,11.57,A
-20/10/12,West Ham,Southampton,good,average,6,12,12.14,11.43,7.14,5.57,H
-21/10/12,QPR,Everton,poor,good,14,3,11.43,18.14,6.71,10.29,D
-21/10/12,Sunderland,Newcastle,good,good,10,8,6.0,11.57,3.83,5.14,D
-27/10/12,Arsenal,QPR,average,poor,6,14,14.75,11.75,7.38,6.63,H
-27/10/12,Aston Villa,Norwich,poor,poor,11,10,11.38,9.88,6.25,5.13,D
-27/10/12,Man City,Swansea,good,poor,2,6,18.38,14.38,11.75,8.5,H
-27/10/12,Reading,Fulham,average,poor,15,6,8.29,14.0,4.14,9.0,D
-27/10/12,Stoke,Sunderland,good,average,9,9,8.63,7.43,4.75,4.14,D
-27/10/12,Wigan,West Ham,poor,average,11,5,10.88,11.75,5.75,7.25,H
-28/10/12,Chelsea,Man United,good,average,1,3,13.75,14.38,7.88,8.25,A
-28/10/12,Everton,Liverpool,good,good,3,7,17.13,16.0,9.5,8.0,D
-28/10/12,Newcastle,West Brom,poor,good,7,5,11.38,12.63,5.38,7.25,H
-28/10/12,Southampton,Tottenham,poor,good,13,5,11.38,17.63,5.38,10.25,A
-3/11/2012,Fulham,Everton,good,average,6,4,14.22,17.11,8.89,9.33,D
-3/11/2012,Man United,Arsenal,good,average,2,4,14.44,15.44,8.11,7.78,H
-3/11/2012,Norwich,Stoke,average,poor,12,10,10.33,8.89,5.22,4.89,H
-3/11/2012,Sunderland,Aston Villa,poor,poor,10,12,7.25,10.89,4.0,6.11,A
-3/11/2012,Swansea,Chelsea,good,good,8,2,13.78,13.78,8.11,8.22,D
-3/11/2012,Tottenham,Wigan,average,poor,4,11,16.89,11.56,9.56,6.56,A
-3/11/2012,West Ham,Man City,average,good,6,3,12.11,17.44,7.67,11.0,D
-4/11/2012,Liverpool,Newcastle,good,poor,10,7,15.56,11.22,7.67,5.44,D
-4/11/2012,QPR,Reading,poor,poor,12,11,10.89,9.13,6.22,4.75,D
-5/11/2012,West Brom,Southampton,average,poor,6,12,12.11,11.33,6.89,5.44,H
-10/11/2012,Arsenal,Fulham,average,good,5,5,14.6,13.6,7.3,8.5,D
-10/11/2012,Aston Villa,Man United,poor,good,11,1,10.7,14.1,6.1,8.0,A
-10/11/2012,Everton,Sunderland,average,average,4,11,18.0,7.67,9.9,3.67,H
-10/11/2012,Reading,Norwich,poor,good,13,11,10.11,10.5,5.11,5.5,D
-10/11/2012,Southampton,Swansea,poor,average,13,9,11.1,13.3,5.4,8.0,D
-10/11/2012,Stoke,QPR,poor,poor,11,14,8.8,12.1,4.7,6.8,H
-10/11/2012,Wigan,West Brom,average,poor,11,5,11.1,12.5,6.3,6.8,A
-11/11/2012,Chelsea,Liverpool,average,good,2,11,13.5,16.0,8.1,8.1,D
-11/11/2012,Man City,Tottenham,good,average,3,5,17.5,16.5,10.7,9.6,H
-11/11/2012,Newcastle,West Ham,good,average,8,7,11.1,11.5,5.2,7.0,A
-17/11/12,Arsenal,Tottenham,average,average,7,6,14.64,15.55,7.45,8.91,H
-17/11/12,Liverpool,Wigan,average,good,11,12,15.36,11.36,7.82,6.27,H
-17/11/12,Man City,Aston Villa,good,good,2,14,17.36,10.64,10.45,6.18,H
-17/11/12,Newcastle,Swansea,good,poor,10,11,11.36,12.55,5.55,7.55,A
-17/11/12,Norwich,Man United,good,good,12,2,10.45,14.27,5.27,7.91,H
-17/11/12,QPR,Southampton,poor,poor,16,15,12.55,11.09,6.91,5.36,A
-17/11/12,Reading,Everton,average,average,15,4,9.8,17.82,4.9,9.91,H
-17/11/12,West Brom,Chelsea,average,poor,4,3,12.0,13.36,6.55,7.64,H
-18/11/12,Fulham,Sunderland,average,poor,9,14,13.18,7.5,8.18,3.7,A
-19/11/12,West Ham,Stoke,poor,poor,7,12,11.36,8.91,6.82,4.73,D
-24/11/12,Aston Villa,Arsenal,average,poor,14,6,10.58,14.5,6.33,7.67,D
-24/11/12,Everton,Norwich,good,good,5,10,18.08,10.42,10.0,5.25,D
-24/11/12,Man United,QPR,good,poor,2,18,14.08,12.58,8.0,6.92,H
-24/11/12,Stoke,Fulham,average,average,12,9,9.17,13.58,4.83,8.58,H
-24/11/12,Sunderland,West Brom,poor,good,12,4,7.91,11.67,4.18,6.5,A
-24/11/12,Wigan,Reading,average,average,13,15,11.17,10.0,6.0,4.82,H
-25/11/12,Chelsea,Man City,average,good,4,2,13.83,17.67,8.0,10.25,D
-25/11/12,Southampton,Newcastle,poor,poor,15,11,11.92,12.67,6.17,5.92,H
-25/11/12,Swansea,Liverpool,average,average,9,10,12.75,15.92,7.67,8.08,D
-25/11/12,Tottenham,West Ham,poor,good,8,7,14.75,11.75,8.5,7.17,H
-27/11/12,Aston Villa,Reading,poor,good,14,15,10.54,10.5,6.46,5.25,H
-27/11/12,Sunderland,QPR,average,poor,13,16,8.83,12.38,4.83,6.85,D
-28/11/12,Chelsea,Fulham,poor,poor,4,9,13.15,13.15,7.46,8.31,D
-28/11/12,Everton,Arsenal,average,good,4,5,17.77,14.38,9.92,7.54,D
-28/11/12,Man United,West Ham,average,good,1,7,14.15,11.62,8.15,7.08,H
-28/11/12,Southampton,Norwich,good,good,13,10,12.31,10.23,6.46,5.15,D
-28/11/12,Stoke,Newcastle,good,poor,9,10,9.38,12.31,4.69,5.69,H
-28/11/12,Swansea,West Brom,good,good,8,3,13.08,11.62,7.69,6.46,H
-28/11/12,Tottenham,Liverpool,poor,good,6,9,15.54,16.31,8.85,8.54,H
-28/11/12,Wigan,Man City,poor,good,11,2,11.77,17.15,6.38,10.0,A
-1/12/2012,Arsenal,Swansea,good,good,6,7,14.21,13.07,7.64,7.71,A
-1/12/2012,Fulham,Tottenham,poor,average,8,4,12.79,15.43,8.21,8.71,A
-1/12/2012,Liverpool,Southampton,good,good,9,12,16.14,12.0,8.57,6.14,H
-1/12/2012,Man City,Everton,good,poor,2,5,17.0,17.5,9.71,9.93,D
-1/12/2012,QPR,Aston Villa,poor,poor,12,9,12.43,10.86,7.0,6.5,D
-1/12/2012,Reading,Man United,average,average,11,1,10.54,14.79,5.31,8.5,A
-1/12/2012,West Brom,Stoke,good,good,3,6,11.21,9.5,6.14,4.71,A
-1/12/2012,West Ham,Chelsea,poor,poor,7,3,11.43,13.43,6.79,7.86,H
-2/12/2012,Norwich,Sunderland,good,average,9,11,10.14,9.15,5.14,5.08,H
-3/12/2012,Newcastle,Wigan,poor,average,9,9,11.93,11.57,5.71,6.21,H
-8/12/2012,Arsenal,West Brom,average,average,6,3,13.93,11.4,7.67,6.47,H
-8/12/2012,Aston Villa,Stoke,good,good,9,6,10.6,9.27,6.27,4.67,D
-8/12/2012,Southampton,Reading,good,poor,12,13,11.73,10.5,6.0,5.43,H
-8/12/2012,Sunderland,Chelsea,poor,average,11,3,9.64,13.6,5.14,7.93,A
-8/12/2012,Swansea,Norwich,good,average,6,8,13.0,9.93,7.87,5.13,A
-8/12/2012,Wigan,QPR,average,poor,11,14,11.4,12.73,6.07,7.33,D
-9/12/2012,Everton,Tottenham,average,good,6,4,16.87,15.07,9.6,8.53,H
-9/12/2012,Man City,Man United,good,good,2,1,16.47,14.47,9.47,8.27,A
-9/12/2012,West Ham,Liverpool,poor,poor,7,8,11.73,16.67,7.2,8.73,A
-10/12/2012,Fulham,Newcastle,poor,poor,8,8,12.47,12.2,7.8,5.87,H
-11/12/2012,Sunderland,Reading,poor,poor,11,12,9.93,10.2,5.47,5.2,H
-15/12/12,Liverpool,Aston Villa,average,good,7,11,16.63,10.5,8.69,6.19,A
-15/12/12,Man United,Sunderland,good,poor,1,11,14.06,10.31,7.94,5.81,H
-15/12/12,Newcastle,Man City,average,good,10,2,12.69,16.44,6.31,9.56,A
-15/12/12,Norwich,Wigan,good,poor,7,12,9.94,11.56,5.31,6.25,H
-15/12/12,QPR,Fulham,average,poor,15,9,12.44,12.69,7.13,7.75,H
-15/12/12,Stoke,Everton,good,average,7,4,8.75,16.88,4.38,9.69,D
-16/12/12,Tottenham,Swansea,good,good,5,8,14.63,13.5,8.38,8.0,H
-16/12/12,West Brom,West Ham,poor,average,5,9,11.13,11.56,6.19,7.13,D
-17/12/12,Reading,Arsenal,poor,poor,15,6,10.31,14.06,5.19,7.63,A
-22/12/12,Liverpool,Fulham,good,average,8,9,17.18,12.29,9.18,7.47,H
-22/12/12,Man City,Reading,poor,poor,2,14,16.41,10.12,9.59,5.18,H
-22/12/12,Newcastle,QPR,average,average,10,13,12.94,12.82,6.41,7.24,H
-22/12/12,Southampton,Sunderland,poor,average,11,10,12.13,10.47,6.19,6.06,A
-22/12/12,Tottenham,Stoke,average,good,3,6,15.18,9.06,8.82,4.59,D
-22/12/12,West Brom,Norwich,poor,good,5,6,11.59,10.29,6.41,5.59,H
-22/12/12,West Ham,Everton,average,good,7,5,11.47,16.41,6.82,9.41,A
-22/12/12,Wigan,Arsenal,poor,average,11,5,11.59,14.71,6.24,8.18,A
-23/12/12,Chelsea,Aston Villa,poor,average,4,9,13.44,10.41,7.75,6.18,H
-23/12/12,Swansea,Man United,average,good,6,1,12.94,14.12,7.53,7.82,D
-26/12/12,Aston Villa,Tottenham,good,average,10,4,10.22,15.5,6.06,9.11,A
-26/12/12,Everton,Wigan,good,poor,5,12,16.33,11.67,9.33,6.17,H
-26/12/12,Fulham,Southampton,average,average,9,12,12.0,12.18,7.39,6.24,D
-26/12/12,Man United,Newcastle,good,poor,1,10,14.39,13.22,8.28,6.5,H
-26/12/12,Norwich,Chelsea,good,average,6,4,10.28,14.06,5.5,8.35,A
-26/12/12,QPR,West Brom,good,poor,15,5,12.39,11.61,7.06,6.5,A
-26/12/12,Reading,Swansea,poor,poor,16,7,9.89,13.0,4.94,7.67,D
-26/12/12,Stoke,Liverpool,average,average,6,6,8.78,17.44,4.44,9.33,H
-26/12/12,Sunderland,Man City,average,average,11,2,10.44,16.44,6.06,9.61,H
-29/12/12,Arsenal,Newcastle,good,average,5,11,14.44,13.37,8.17,6.74,H
-29/12/12,Aston Villa,Wigan,average,poor,11,13,9.89,11.58,5.79,6.16,A
-29/12/12,Fulham,Swansea,poor,poor,9,6,11.89,12.84,7.11,7.47,A
-29/12/12,Man United,West Brom,good,good,1,4,14.47,11.63,8.37,6.47,H
-29/12/12,Norwich,Man City,average,good,6,2,10.16,16.58,5.42,9.74,A
-29/12/12,Reading,West Ham,poor,poor,13,7,9.53,11.17,4.79,6.72,H
-29/12/12,Stoke,Southampton,average,average,5,12,8.68,11.89,4.53,6.06,D
-29/12/12,Sunderland,Tottenham,average,good,9,4,10.53,15.74,6.05,9.47,A
-30/12/12,Everton,Chelsea,good,good,5,4,16.37,14.39,9.32,8.5,A
-30/12/12,QPR,Liverpool,average,average,16,8,12.68,17.16,7.11,9.16,A
-1/1/2013,Man City,Stoke,average,good,2,6,16.4,8.75,9.7,4.7,H
-1/1/2013,Southampton,Arsenal,poor,good,14,5,11.68,14.53,6.11,8.37,D
-1/1/2013,Swansea,Aston Villa,average,poor,8,14,12.7,9.95,7.55,5.7,D
-1/1/2013,Tottenham,Reading,good,poor,4,16,15.85,9.2,9.7,4.65,H
-1/1/2013,West Brom,Fulham,good,poor,6,12,11.7,12.4,6.6,7.4,A
-1/1/2013,West Ham,Norwich,poor,poor,11,9,11.16,10.3,6.53,5.55,H
-1/1/2013,Wigan,Man United,poor,good,15,1,11.45,14.6,6.15,8.65,A
-2/1/2013,Chelsea,QPR,good,poor,4,17,14.42,12.75,8.58,7.1,A
-2/1/2013,Liverpool,Sunderland,average,good,8,12,17.1,10.45,9.25,6.05,H
-2/1/2013,Newcastle,Everton,average,good,13,6,13.2,16.15,6.8,9.15,A
-12/1/2013,Aston Villa,Southampton,poor,average,15,16,9.86,11.55,5.71,6.1,A
-12/1/2013,Everton,Swansea,average,good,5,9,15.71,13.19,9.0,7.81,D
-12/1/2013,Fulham,Wigan,poor,average,13,18,12.29,11.24,7.29,6.0,D
-12/1/2013,Norwich,Newcastle,poor,poor,12,15,10.24,13.24,5.43,7.0,D
-12/1/2013,QPR,Tottenham,poor,good,16,3,12.52,16.52,7.0,10.19,D
-12/1/2013,Reading,West Brom,good,average,17,7,9.1,11.95,4.62,6.76,H
-12/1/2013,Stoke,Chelsea,good,good,10,4,8.52,14.85,4.62,8.7,A
-12/1/2013,Sunderland,West Ham,average,poor,13,11,10.24,11.3,6.0,6.6,H
-13/01/13,Arsenal,Man City,good,average,6,2,14.1,16.43,8.15,9.67,A
-13/01/13,Man United,Liverpool,good,average,1,8,14.57,17.57,8.67,9.57,H
-16/01/13,Chelsea,Southampton,average,average,3,13,14.67,11.52,8.71,6.0,D
-19/01/13,Liverpool,Norwich,good,poor,8,11,17.32,10.32,9.36,5.32,H
-19/01/13,Man City,Fulham,good,average,2,11,16.41,12.36,9.64,7.18,H
-19/01/13,Newcastle,Reading,poor,average,13,15,13.05,9.0,6.86,4.73,A
-19/01/13,Swansea,Stoke,good,poor,8,9,12.77,8.64,7.55,4.64,H
-19/01/13,West Brom,Aston Villa,poor,poor,7,13,11.91,10.14,6.73,5.91,D
-19/01/13,West Ham,QPR,average,average,9,15,11.19,12.14,6.48,6.73,D
-19/01/13,Wigan,Sunderland,average,poor,15,11,11.41,10.59,6.0,6.36,A
-20/01/13,Chelsea,Arsenal,average,good,3,6,14.86,13.86,8.77,7.95,H
-20/01/13,Tottenham,Man United,good,good,4,1,16.5,14.59,10.09,8.73,D
-21/01/13,Southampton,Everton,good,average,13,5,11.32,15.73,5.86,8.95,D
-23/01/13,Arsenal,West Ham,poor,average,6,10,13.77,11.68,7.95,6.77,H
-29/01/13,Aston Villa,Newcastle,poor,poor,16,15,10.17,13.13,5.96,7.0,A
-29/01/13,QPR,Man City,good,good,18,2,12.0,16.57,6.7,9.7,D
-29/01/13,Stoke,Wigan,poor,poor,9,17,8.57,11.78,4.52,6.22,D
-29/01/13,Sunderland,Swansea,average,average,10,8,10.57,12.74,6.3,7.48,D
-30/01/13,Arsenal,Liverpool,poor,average,6,7,14.17,17.3,8.35,9.39,D
-30/01/13,Everton,West Brom,good,poor,5,7,15.48,12.48,8.87,6.83,H
-30/01/13,Fulham,West Ham,good,poor,12,10,11.96,11.48,6.87,6.7,H
-30/01/13,Man United,Southampton,good,good,1,14,14.22,11.43,8.52,6.09,H
-30/01/13,Norwich,Tottenham,poor,good,12,4,10.09,16.78,5.22,10.43,D
-30/01/13,Reading,Chelsea,average,good,16,3,8.87,14.78,4.61,8.74,D
-2/2/2013,Arsenal,Stoke,average,poor,6,9,14.17,8.58,8.25,4.5,H
-2/2/2013,Everton,Aston Villa,average,poor,5,14,15.29,10.17,8.67,5.88,D
-2/2/2013,Fulham,Man United,poor,good,10,1,12.0,14.08,6.83,8.46,A
-2/2/2013,Newcastle,Chelsea,poor,good,12,3,13.0,14.75,7.0,8.58,H
-2/2/2013,QPR,Norwich,average,poor,15,11,11.71,10.0,6.54,5.17,D
-2/2/2013,Reading,Sunderland,good,good,14,9,8.71,10.29,4.5,6.13,H
-2/2/2013,West Ham,Swansea,poor,good,11,7,11.33,12.96,6.58,7.5,H
-2/2/2013,Wigan,Southampton,poor,average,14,12,11.75,11.83,6.21,6.25,D
-3/2/2013,Man City,Liverpool,good,average,2,6,16.5,17.0,9.58,9.21,D
-3/2/2013,West Brom,Tottenham,poor,average,7,4,12.25,16.58,6.71,10.29,A
-9/2/2013,Chelsea,Wigan,good,poor,3,15,14.64,11.48,8.48,6.08,H
-9/2/2013,Norwich,Fulham,poor,average,11,11,10.16,12.12,5.32,6.88,D
-9/2/2013,Southampton,Man City,poor,good,12,2,11.96,16.2,6.28,9.4,H
-9/2/2013,Stoke,Reading,poor,good,9,12,8.48,8.72,4.4,4.52,H
-9/2/2013,Sunderland,Arsenal,good,good,11,6,10.28,14.2,6.12,8.28,A
-9/2/2013,Swansea,QPR,good,average,8,15,12.88,11.84,7.48,6.56,H
-9/2/2013,Tottenham,Newcastle,average,average,4,13,16.76,13.24,10.4,7.24,H
-10/2/2013,Aston Villa,West Ham,poor,poor,15,11,10.08,11.6,5.8,6.68,H
-10/2/2013,Man United,Everton,good,good,1,6,14.04,15.56,8.44,8.84,H
-11/2/2013,Liverpool,West Brom,good,poor,8,9,17.16,11.92,9.32,6.56,A
-17/02/13,Liverpool,Swansea,average,poor,8,7,17.38,12.88,9.5,7.65,H
-23/02/13,Arsenal,Aston Villa,good,poor,5,13,14.35,9.96,8.31,5.65,H
-23/02/13,Fulham,Stoke,average,poor,11,9,11.92,8.65,6.81,4.62,H
-23/02/13,Norwich,Everton,average,good,12,6,10.35,15.31,5.42,8.81,H
-23/02/13,QPR,Man United,average,good,17,1,11.92,13.88,6.62,8.35,A
-23/02/13,Reading,Wigan,good,average,15,16,8.58,11.54,4.5,6.23,A
-23/02/13,West Brom,Sunderland,poor,poor,8,12,11.62,10.35,6.42,6.15,H
-24/02/13,Man City,Chelsea,average,poor,2,3,15.85,15.04,9.19,8.81,H
-24/02/13,Newcastle,Southampton,good,poor,14,14,13.08,12.0,7.23,6.31,H
-25/02/13,West Ham,Tottenham,average,good,12,4,11.65,16.73,6.69,10.35,A
-2/3/2013,Chelsea,West Brom,average,average,4,7,14.63,11.81,8.52,6.44,H
-2/3/2013,Everton,Reading,poor,average,6,16,15.15,8.52,8.67,4.37,H
-2/3/2013,Man United,Norwich,good,average,1,11,13.85,10.33,8.33,5.56,H
-2/3/2013,Southampton,QPR,good,poor,14,17,11.96,11.93,6.33,6.56,A
-2/3/2013,Stoke,West Ham,average,average,10,12,8.59,11.52,4.52,6.67,A
-2/3/2013,Sunderland,Fulham,poor,poor,13,11,10.33,12.22,6.15,6.89,D
-2/3/2013,Swansea,Newcastle,average,average,9,12,12.56,13.0,7.48,7.15,H
-2/3/2013,Wigan,Liverpool,poor,poor,13,8,11.63,17.96,6.3,9.81,A
-3/3/2013,Tottenham,Arsenal,good,good,4,5,17.04,14.7,10.56,8.52,H
-4/3/2013,Aston Villa,Man City,good,poor,13,2,9.78,15.81,5.56,9.26,A
-9/3/2013,Norwich,Southampton,good,average,10,12,10.0,12.14,5.39,6.43,D
-9/3/2013,QPR,Sunderland,poor,poor,14,10,11.68,10.39,6.43,6.14,H
-9/3/2013,Reading,Aston Villa,poor,average,13,12,8.64,9.79,4.43,5.54,A
-9/3/2013,West Brom,Swansea,good,average,8,8,11.68,12.46,6.36,7.46,H
-10/3/2013,Liverpool,Tottenham,average,good,8,3,17.61,16.82,9.71,10.36,H
-10/3/2013,Newcastle,Stoke,average,average,10,9,13.04,8.64,7.14,4.43,H
-16/03/13,Aston Villa,QPR,poor,average,12,14,10.07,11.79,5.59,6.48,H
-16/03/13,Everton,Man City,poor,average,6,2,15.25,15.96,8.79,9.36,H
-16/03/13,Man United,Reading,good,poor,1,14,13.82,8.69,8.39,4.41,H
-16/03/13,Southampton,Liverpool,poor,good,12,7,12.24,17.34,6.45,9.52,H
-16/03/13,Stoke,West Brom,poor,average,10,8,8.59,11.69,4.41,6.34,D
-16/03/13,Swansea,Arsenal,average,good,9,6,12.34,14.54,7.34,8.43,A
-17/03/13,Chelsea,West Ham,average,poor,4,11,15.0,11.46,8.89,6.68,H
-17/03/13,Sunderland,Norwich,poor,average,13,11,10.28,9.76,6.03,5.28,D
-17/03/13,Tottenham,Fulham,good,good,4,11,16.76,12.04,10.31,6.79,A
-17/03/13,Wigan,Newcastle,average,average,15,12,11.75,13.07,6.46,7.1,H
-30/03/13,Arsenal,Reading,average,poor,5,16,14.55,8.57,8.52,4.3,H
-30/03/13,Everton,Stoke,average,poor,6,11,15.1,8.73,8.66,4.43,H
-30/03/13,Man City,Newcastle,good,average,2,12,16.0,12.93,9.41,7.0,H
-30/03/13,Southampton,Chelsea,poor,average,13,3,12.4,15.31,6.63,9.07,H
-30/03/13,Sunderland,Man United,poor,good,13,1,10.47,13.93,6.1,8.38,A
-30/03/13,Swansea,Tottenham,average,average,9,4,12.23,16.6,7.17,10.17,A
-30/03/13,West Ham,West Brom,average,average,12,8,11.59,11.6,6.76,6.3,H
-30/03/13,Wigan,Norwich,average,poor,15,11,11.79,9.67,6.59,5.2,H
-31/03/13,Aston Villa,Liverpool,average,good,14,7,10.07,17.03,5.6,9.4,A
-1/4/2013,Fulham,QPR,good,good,10,15,11.83,12.0,6.62,6.63,H
-6/4/2013,Norwich,Swansea,average,poor,12,9,9.65,12.19,5.19,7.03,D
-6/4/2013,Reading,Southampton,poor,good,17,13,8.42,12.42,4.23,6.68,A
-6/4/2013,Stoke,Aston Villa,poor,good,14,17,8.77,10.06,4.45,5.65,A
-6/4/2013,West Brom,Arsenal,good,average,8,5,11.77,14.83,6.45,8.7,A
-7/4/2013,Chelsea,Sunderland,good,poor,5,16,15.03,10.42,8.9,6.03,H
-7/4/2013,Liverpool,West Ham,average,average,7,12,17.0,11.67,9.48,6.8,D
-7/4/2013,Newcastle,Fulham,average,good,14,10,12.68,11.73,6.81,6.57,H
-7/4/2013,QPR,Wigan,average,average,18,17,12.23,11.83,6.77,6.57,D
-7/4/2013,Tottenham,Everton,poor,good,4,6,16.35,15.1,10.06,8.67,D
-8/4/2013,Man United,Man City,good,average,1,2,13.8,16.1,8.3,9.47,A
-13/04/13,Arsenal,Norwich,good,poor,4,12,14.71,9.72,8.61,5.31,H
-13/04/13,Aston Villa,Fulham,average,good,14,9,10.09,11.52,5.72,6.45,D
-13/04/13,Everton,QPR,good,poor,5,15,14.9,12.03,8.55,6.63,H
-13/04/13,Reading,Liverpool,poor,average,16,6,8.41,17.06,4.19,9.56,D
-13/04/13,Southampton,West Ham,good,average,10,10,12.41,11.61,6.59,6.71,D
-14/04/13,Newcastle,Sunderland,poor,poor,11,14,12.91,10.31,6.91,5.94,A
-14/04/13,Stoke,Man United,poor,good,13,1,8.69,13.87,4.38,8.26,A
-16/04/13,Arsenal,Everton,good,good,3,5,14.56,14.88,8.56,8.59,D
-17/04/13,Fulham,Chelsea,average,average,9,4,11.41,15.0,6.34,8.84,A
-17/04/13,Man City,Wigan,average,good,2,15,15.87,11.97,9.32,6.68,H
-17/04/13,West Ham,Man United,good,average,11,1,11.44,13.72,6.63,8.09,D
-20/04/13,Fulham,Arsenal,poor,good,10,4,11.39,14.42,6.36,8.48,A
-20/04/13,Norwich,Reading,poor,poor,14,17,9.58,8.36,5.3,4.21,H
-20/04/13,QPR,Stoke,poor,poor,16,14,11.91,8.82,6.58,4.36,A
-20/04/13,Sunderland,Everton,poor,good,15,6,10.24,14.73,5.97,8.48,H
-20/04/13,Swansea,Southampton,poor,good,9,12,12.31,12.48,7.09,6.73,D
-20/04/13,West Brom,Newcastle,poor,average,8,14,11.91,12.97,6.41,6.97,D
-20/04/13,West Ham,Wigan,average,good,11,15,11.39,11.84,6.55,6.66,H
-21/04/13,Liverpool,Chelsea,good,average,7,4,17.33,14.94,9.73,8.88,D
-21/04/13,Tottenham,Man City,average,good,5,2,16.44,15.69,10.06,9.16,H
-22/04/13,Man United,Aston Villa,average,average,1,14,13.76,10.24,8.12,5.76,H
-27/04/13,Everton,Fulham,good,poor,6,10,14.53,11.26,8.38,6.32,H
-27/04/13,Man City,West Ham,good,average,2,9,15.55,11.56,9.09,6.68,H
-27/04/13,Newcastle,Liverpool,average,average,13,7,12.88,17.5,6.94,9.79,A
-27/04/13,Southampton,West Brom,good,poor,11,8,12.38,11.79,6.68,6.33,A
-27/04/13,Stoke,Norwich,poor,poor,13,12,8.88,9.85,4.35,5.41,H
-27/04/13,Wigan,Tottenham,poor,good,15,5,12.03,16.27,6.76,10.0,D
-28/04/13,Arsenal,Man United,good,good,3,1,14.29,13.65,8.44,8.03,D
-28/04/13,Chelsea,Swansea,good,poor,4,8,14.76,12.36,8.79,7.09,H
-28/04/13,Reading,QPR,poor,poor,16,16,8.53,12.29,4.26,6.71,D
-29/04/13,Aston Villa,Sunderland,good,average,14,13,10.18,10.18,5.74,5.91,H
-4/5/2013,Fulham,Reading,poor,poor,10,15,11.11,8.66,6.2,4.34,A
-4/5/2013,Norwich,Aston Villa,average,poor,12,13,9.71,10.4,5.26,6.0,A
-4/5/2013,QPR,Arsenal,poor,good,16,4,12.37,14.43,6.66,8.57,A
-4/5/2013,Swansea,Man City,average,average,9,2,12.32,15.56,7.12,9.12,D
-4/5/2013,Tottenham,Southampton,good,average,5,12,16.21,12.49,9.91,6.6,H
-4/5/2013,West Brom,Wigan,poor,poor,7,14,11.76,11.85,6.41,6.68,A
-4/5/2013,West Ham,Newcastle,good,poor,9,13,11.49,12.66,6.66,6.77,D
-5/5/2013,Liverpool,Everton,average,poor,6,5,17.31,14.6,9.8,8.43,D
-5/5/2013,Man United,Chelsea,good,good,1,4,13.54,14.94,7.94,8.94,A
-6/5/2013,Sunderland,Stoke,good,average,13,10,10.09,8.97,5.86,4.34,D
-7/5/2013,Man City,West Brom,average,good,2,8,15.46,11.91,9.09,6.54,H
-7/5/2013,Wigan,Swansea,poor,poor,14,9,11.89,12.17,6.71,6.94,A
-8/5/2013,Chelsea,Tottenham,good,good,3,5,14.94,15.94,8.86,9.74,D
-11/5/2013,Aston Villa,Chelsea,average,good,12,3,10.44,14.94,6.0,8.83,A
-12/5/2013,Everton,West Ham,average,average,6,10,14.5,11.42,8.31,6.56,H
-12/5/2013,Fulham,Liverpool,poor,good,12,7,11.31,17.28,6.39,9.75,A
-12/5/2013,Man United,Swansea,good,poor,1,9,13.44,12.11,7.83,6.92,H
-12/5/2013,Norwich,West Brom,average,average,14,8,9.69,12.14,5.22,6.67,H
-12/5/2013,QPR,Newcastle,poor,poor,17,14,12.42,12.61,6.64,6.75,A
-12/5/2013,Stoke,Tottenham,good,good,11,5,9.03,15.86,4.42,9.64,A
-12/5/2013,Sunderland,Southampton,average,poor,14,13,10.19,12.42,5.89,6.58,D
-14/05/13,Arsenal,Wigan,good,good,5,14,14.39,11.94,8.64,6.83,H
-14/05/13,Reading,Man City,poor,good,15,2,8.97,15.61,4.58,9.08,A
-19/05/13,Chelsea,Everton,good,good,3,6,14.84,14.73,8.81,8.43,H
-19/05/13,Liverpool,QPR,good,poor,7,16,17.35,12.3,9.86,6.54,H
-19/05/13,Man City,Norwich,good,poor,2,11,15.92,9.73,9.38,5.3,A
-19/05/13,Newcastle,Arsenal,poor,good,12,4,12.54,14.51,6.76,8.73,A
-19/05/13,Southampton,Stoke,poor,good,13,12,12.49,8.95,6.68,4.38,D
-19/05/13,Swansea,Fulham,good,poor,9,14,11.92,11.27,6.78,6.43,A
-19/05/13,Tottenham,Sunderland,good,poor,5,15,16.05,10.05,9.78,5.86,H
-19/05/13,West Brom,Man United,poor,poor,8,1,12.03,13.51,6.62,7.86,D
-19/05/13,West Ham,Reading,poor,good,11,17,11.3,9.03,6.43,4.65,H
-19/05/13,Wigan,Aston Villa,average,good,16,14,11.89,10.49,6.78,6.03,D
+Date,HomeTeam,AwayTeam,FormH,FormA,PositionH,PositionA,HSPG,ASPG,HSTPG,ASTPG,B365H,B365D,B365A,FTR
+18/08/12,Arsenal,Sunderland,average,average,1,1,0.0,0.0,0.0,0.0,1.4,4.5,8.5,D
+18/08/12,Fulham,Norwich,average,average,2,2,0.0,0.0,0.0,0.0,1.8,3.6,4.5,H
+18/08/12,Newcastle,Tottenham,average,average,3,3,0.0,0.0,0.0,0.0,2.5,3.4,2.75,H
+18/08/12,QPR,Swansea,average,average,3,3,0.0,0.0,0.0,0.0,2,3.4,3.8,A
+18/08/12,Reading,Stoke,average,average,3,3,0.0,0.0,0.0,0.0,2.38,3.25,3.1,D
+18/08/12,West Brom,Liverpool,average,average,3,3,0.0,0.0,0.0,0.0,4.2,3.5,1.91,H
+18/08/12,West Ham,Aston Villa,average,average,3,3,0.0,0.0,0.0,0.0,2.2,3.3,3.4,H
+19/08/12,Man City,Southampton,average,average,3,3,0.0,0.0,0.0,0.0,1.17,7,17,H
+19/08/12,Wigan,Chelsea,average,average,3,3,0.0,0.0,0.0,0.0,6,3.75,1.62,A
+20/08/12,Everton,Man United,average,average,3,3,0.0,0.0,0.0,0.0,4.33,3.6,1.83,H
+22/08/12,Chelsea,Reading,poor,poor,1,2,5.0,9.0,3.0,3.0,1.25,5.5,13,H
+25/08/12,Aston Villa,Everton,poor,poor,4,2,10.0,16.0,6.0,7.0,2.9,3.4,2.4,A
+25/08/12,Chelsea,Newcastle,good,poor,1,2,14.0,6.0,7.0,4.0,1.5,4.33,6.5,H
+25/08/12,Man United,Fulham,poor,poor,5,3,12.0,11.0,7.0,9.0,1.29,5.5,11,H
+25/08/12,Norwich,QPR,poor,poor,5,5,4.0,20.0,2.0,11.0,2.25,3.4,3.2,D
+25/08/12,Southampton,Wigan,poor,poor,5,5,9.0,12.0,6.0,4.0,2.1,3.4,3.5,A
+25/08/12,Swansea,West Ham,poor,poor,3,3,12.0,8.0,8.0,4.0,2.1,3.3,3.6,H
+25/08/12,Tottenham,West Brom,poor,poor,5,3,12.0,15.0,6.0,10.0,1.5,4.33,6.5,D
+26/08/12,Liverpool,Man City,poor,poor,6,4,14.0,20.0,7.0,15.0,3.1,3.4,2.3,D
+26/08/12,Stoke,Arsenal,poor,poor,5,5,6.0,14.0,3.0,4.0,3.5,3.4,2.1,D
+1/9/2012,Man City,QPR,good,poor,3,6,15.5,13.0,10.0,7.5,1.18,7,15,H
+1/9/2012,Swansea,Sunderland,good,poor,3,7,11.0,3.0,7.5,2.0,2.2,3.3,3.4,D
+1/9/2012,Tottenham,Norwich,poor,poor,7,7,15.0,8.5,8.0,3.0,1.36,5,8.5,D
+1/9/2012,West Brom,Everton,good,good,4,3,12.5,17.5,7.5,9.0,3,3.3,2.38,H
+1/9/2012,West Ham,Fulham,good,good,4,4,7.5,12.5,5.0,10.0,2.5,3.25,2.88,H
+1/9/2012,Wigan,Stoke,poor,good,4,5,12.0,6.5,6.0,3.5,2.25,3.25,3.3,D
+2/9/2012,Liverpool,Arsenal,poor,good,7,6,14.5,15.0,7.5,5.0,2,3.5,3.75,A
+2/9/2012,Newcastle,Aston Villa,good,poor,6,9,8.5,8.5,4.5,4.5,1.62,3.75,6,D
+2/9/2012,Southampton,Man United,poor,poor,9,6,11.5,16.0,7.5,9.0,6,4.2,1.53,A
+15/09/12,Arsenal,Southampton,average,poor,4,9,13.67,12.67,5.67,7.67,1.36,5,8.5,H
+15/09/12,Aston Villa,Swansea,poor,good,8,3,10.0,12.0,6.0,8.33,2.38,3.25,3.1,H
+15/09/12,Fulham,West Brom,average,good,6,3,13.0,13.0,11.0,7.67,2.1,3.4,3.5,H
+15/09/12,Man United,Wigan,average,average,4,5,16.67,11.0,9.0,5.67,1.25,6,12,H
+15/09/12,Norwich,West Ham,poor,average,7,4,9.0,10.67,3.33,7.33,2.38,3.4,3,D
+15/09/12,QPR,Chelsea,poor,good,8,1,11.67,13.0,6.67,6.67,4.5,3.5,1.83,D
+15/09/12,Stoke,Man City,average,good,7,4,9.67,16.67,5.0,10.67,5,3.6,1.73,D
+15/09/12,Sunderland,Liverpool,good,poor,8,9,3.5,15.33,2.5,7.67,3.4,3.3,2.2,D
+16/09/12,Reading,Tottenham,good,poor,9,8,8.0,15.0,4.0,8.33,3.75,3.5,2,A
+17/09/12,Everton,Newcastle,good,average,5,7,15.67,11.0,7.67,5.0,1.73,3.6,5,D
+22/09/12,Chelsea,Stoke,good,average,1,7,13.0,8.25,7.25,4.5,1.36,4.75,9,H
+22/09/12,Southampton,Aston Villa,poor,poor,11,7,11.75,11.75,6.75,7.75,2.4,3.3,3,H
+22/09/12,Swansea,Everton,good,average,4,4,11.5,16.0,7.5,8.25,3,3.3,2.4,A
+22/09/12,West Brom,Reading,good,poor,5,11,12.25,6.67,7.75,3.33,1.73,3.75,4.75,H
+22/09/12,West Ham,Sunderland,average,average,5,9,10.25,4.33,6.5,3.0,2.1,3.3,3.6,D
+22/09/12,Wigan,Fulham,good,poor,8,6,10.25,15.5,5.25,11.75,2.4,3.3,3,A
+23/09/12,Liverpool,Man United,poor,good,9,3,16.5,16.75,8.0,9.25,2.7,3.3,2.63,A
+23/09/12,Man City,Arsenal,good,good,5,5,16.25,15.25,10.75,7.25,1.75,3.6,4.75,D
+23/09/12,Newcastle,Norwich,poor,average,7,9,11.0,11.75,5.5,6.0,1.8,3.6,4.5,H
+23/09/12,Tottenham,QPR,average,poor,7,10,16.75,11.25,9.0,6.5,1.44,4.33,7.5,H
+29/09/12,Arsenal,Chelsea,good,good,4,1,14.2,13.8,6.6,7.6,2.1,3.4,3.5,A
+29/09/12,Everton,Southampton,poor,poor,3,8,18.8,11.8,10.4,6.2,1.4,4.75,8,H
+29/09/12,Fulham,Man City,average,good,5,5,14.8,15.8,11.2,10.6,4.33,3.6,1.83,A
+29/09/12,Man United,Tottenham,good,good,3,6,15.0,17.0,8.2,10.0,1.57,4,6,A
+29/09/12,Norwich,Liverpool,average,poor,10,11,11.0,15.8,5.4,8.0,4.75,3.75,1.73,A
+29/09/12,Reading,Newcastle,poor,average,13,7,7.0,12.0,2.75,6.0,2.88,3.3,2.5,D
+29/09/12,Stoke,Swansea,average,poor,10,8,9.2,12.8,4.8,8.2,1.91,3.4,4.2,H
+29/09/12,Sunderland,Wigan,average,poor,10,10,4.25,11.8,2.75,6.0,2,3.4,3.8,H
+30/09/12,Aston Villa,West Brom,good,average,10,5,11.0,11.6,6.6,7.0,2.4,3.3,3,D
+1/10/2012,QPR,West Ham,poor,good,11,6,10.8,12.2,6.4,7.4,2.05,3.4,3.75,A
+6/10/2012,Chelsea,Norwich,good,poor,1,9,13.17,10.83,7.17,5.67,1.22,6.5,12,H
+6/10/2012,Man City,Sunderland,average,average,3,6,16.67,5.6,10.83,3.4,1.29,5.5,11,H
+6/10/2012,Swansea,Reading,poor,poor,7,11,12.0,8.4,6.83,3.6,1.91,3.6,4,D
+6/10/2012,West Brom,QPR,average,poor,5,12,12.0,11.17,7.0,6.83,1.83,3.75,4.2,H
+6/10/2012,West Ham,Arsenal,average,good,6,7,13.0,14.17,7.83,6.33,4,3.6,1.91,A
+6/10/2012,Wigan,Everton,poor,good,11,4,11.17,18.5,5.5,10.17,4.2,3.4,1.91,D
+7/10/2012,Liverpool,Stoke,poor,poor,9,8,14.83,9.33,7.67,4.83,1.44,4.33,7.5,D
+7/10/2012,Newcastle,Man United,good,good,6,4,11.33,15.0,5.5,8.17,4.2,3.75,1.83,A
+7/10/2012,Southampton,Fulham,average,good,11,6,11.17,13.5,5.5,9.83,2.75,3.3,2.6,D
+7/10/2012,Tottenham,Aston Villa,good,average,5,11,15.83,12.33,9.33,6.83,1.44,4.33,7.5,H
+20/10/12,Fulham,Aston Villa,average,poor,6,11,13.57,11.71,9.14,6.57,1.8,3.6,4.5,H
+20/10/12,Liverpool,Reading,average,poor,10,13,15.0,8.33,7.29,4.0,1.33,5,10,H
+20/10/12,Man United,Stoke,average,average,2,8,14.57,8.71,8.29,4.57,1.29,5.5,11,H
+20/10/12,Norwich,Arsenal,poor,poor,13,6,10.29,15.0,5.43,7.43,6,4.2,1.53,H
+20/10/12,Swansea,Wigan,poor,poor,9,12,13.86,11.0,8.14,5.57,2.1,3.4,3.5,H
+20/10/12,Tottenham,Chelsea,good,good,4,1,16.86,14.14,9.43,8.0,2.5,3.4,2.75,A
+20/10/12,West Brom,Man City,good,good,4,3,12.14,18.0,7.14,11.57,5,3.75,1.7,A
+20/10/12,West Ham,Southampton,good,average,6,12,12.14,11.43,7.14,5.57,1.83,3.75,4.2,H
+21/10/12,QPR,Everton,poor,good,14,3,11.43,18.14,6.71,10.29,3.25,3.4,2.2,D
+21/10/12,Sunderland,Newcastle,good,good,10,8,6.0,11.57,3.83,5.14,2.5,3.3,2.88,D
+27/10/12,Arsenal,QPR,average,poor,6,14,14.75,11.75,7.38,6.63,1.36,5,8.5,H
+27/10/12,Aston Villa,Norwich,poor,poor,11,10,11.38,9.88,6.25,5.13,2,3.5,3.75,D
+27/10/12,Man City,Swansea,good,poor,2,6,18.38,14.38,11.75,8.5,1.22,6,15,H
+27/10/12,Reading,Fulham,average,poor,15,6,8.29,14.0,4.14,9.0,2.75,3.4,2.5,D
+27/10/12,Stoke,Sunderland,good,average,9,9,8.63,7.43,4.75,4.14,1.95,3.3,4.2,D
+27/10/12,Wigan,West Ham,poor,average,11,5,10.88,11.75,5.75,7.25,2.25,3.4,3.2,H
+28/10/12,Chelsea,Man United,good,average,1,3,13.75,14.38,7.88,8.25,2.4,3.4,2.9,A
+28/10/12,Everton,Liverpool,good,good,3,7,17.13,16.0,9.5,8.0,2.6,3.3,2.75,D
+28/10/12,Newcastle,West Brom,poor,good,7,5,11.38,12.63,5.38,7.25,2,3.5,3.75,H
+28/10/12,Southampton,Tottenham,poor,good,13,5,11.38,17.63,5.38,10.25,4.2,3.75,1.83,A
+3/11/2012,Fulham,Everton,good,average,6,4,14.22,17.11,8.89,9.33,2.75,3.4,2.5,D
+3/11/2012,Man United,Arsenal,good,average,2,4,14.44,15.44,8.11,7.78,1.7,3.8,5,H
+3/11/2012,Norwich,Stoke,average,poor,12,10,10.33,8.89,5.22,4.89,2.6,3.3,2.75,H
+3/11/2012,Sunderland,Aston Villa,poor,poor,10,12,7.25,10.89,4.0,6.11,2.1,3.3,3.6,A
+3/11/2012,Swansea,Chelsea,good,good,8,2,13.78,13.78,8.11,8.22,4.5,3.6,1.8,D
+3/11/2012,Tottenham,Wigan,average,poor,4,11,16.89,11.56,9.56,6.56,1.5,4.33,6.5,A
+3/11/2012,West Ham,Man City,average,good,6,3,12.11,17.44,7.67,11.0,5,3.8,1.7,D
+4/11/2012,Liverpool,Newcastle,good,poor,10,7,15.56,11.22,7.67,5.44,1.57,4,6,D
+4/11/2012,QPR,Reading,poor,poor,12,11,10.89,9.13,6.22,4.75,1.8,3.6,4.5,D
+5/11/2012,West Brom,Southampton,average,poor,6,12,12.11,11.33,6.89,5.44,1.73,3.75,4.75,H
+10/11/2012,Arsenal,Fulham,average,good,5,5,14.6,13.6,7.3,8.5,1.53,4.2,6,D
+10/11/2012,Aston Villa,Man United,poor,good,11,1,10.7,14.1,6.1,8.0,7,4.5,1.44,A
+10/11/2012,Everton,Sunderland,average,average,4,11,18.0,7.67,9.9,3.67,1.44,4.2,8,H
+10/11/2012,Reading,Norwich,poor,good,13,11,10.11,10.5,5.11,5.5,2.25,3.4,3.2,D
+10/11/2012,Southampton,Swansea,poor,average,13,9,11.1,13.3,5.4,8.0,2.38,3.5,2.88,D
+10/11/2012,Stoke,QPR,poor,poor,11,14,8.8,12.1,4.7,6.8,1.91,3.4,4.2,H
+10/11/2012,Wigan,West Brom,average,poor,11,5,11.1,12.5,6.3,6.8,2.3,3.4,3.1,A
+11/11/2012,Chelsea,Liverpool,average,good,2,11,13.5,16.0,8.1,8.1,1.95,3.5,4,D
+11/11/2012,Man City,Tottenham,good,average,3,5,17.5,16.5,10.7,9.6,1.57,4,6,H
+11/11/2012,Newcastle,West Ham,good,average,8,7,11.1,11.5,5.2,7.0,1.95,3.6,3.8,A
+17/11/12,Arsenal,Tottenham,average,average,7,6,14.64,15.55,7.45,8.91,1.91,3.75,3.8,H
+17/11/12,Liverpool,Wigan,average,good,11,12,15.36,11.36,7.82,6.27,1.44,4.33,7.5,H
+17/11/12,Man City,Aston Villa,good,good,2,14,17.36,10.64,10.45,6.18,1.2,6.5,15,H
+17/11/12,Newcastle,Swansea,good,poor,10,11,11.36,12.55,5.55,7.55,1.91,3.6,4,A
+17/11/12,Norwich,Man United,good,good,12,2,10.45,14.27,5.27,7.91,7,4.5,1.44,H
+17/11/12,QPR,Southampton,poor,poor,16,15,12.55,11.09,6.91,5.36,1.91,3.6,4,A
+17/11/12,Reading,Everton,average,average,15,4,9.8,17.82,4.9,9.91,4.33,3.6,1.83,H
+17/11/12,West Brom,Chelsea,average,poor,4,3,12.0,13.36,6.55,7.64,3.75,3.5,2,H
+18/11/12,Fulham,Sunderland,average,poor,9,14,13.18,7.5,8.18,3.7,1.67,3.75,5.25,A
+19/11/12,West Ham,Stoke,poor,poor,7,12,11.36,8.91,6.82,4.73,2,3.4,3.8,D
+24/11/12,Aston Villa,Arsenal,average,poor,14,6,10.58,14.5,6.33,7.67,4.75,3.75,1.73,D
+24/11/12,Everton,Norwich,good,good,5,10,18.08,10.42,10.0,5.25,1.44,4.33,7.5,D
+24/11/12,Man United,QPR,good,poor,2,18,14.08,12.58,8.0,6.92,1.17,7.5,15,H
+24/11/12,Stoke,Fulham,average,average,12,9,9.17,13.58,4.83,8.58,2.2,3.3,3.4,H
+24/11/12,Sunderland,West Brom,poor,good,12,4,7.91,11.67,4.18,6.5,2.5,3.3,2.88,A
+24/11/12,Wigan,Reading,average,average,13,15,11.17,10.0,6.0,4.82,1.83,3.6,4.33,H
+25/11/12,Chelsea,Man City,average,good,4,2,13.83,17.67,8.0,10.25,2.5,3.5,2.7,D
+25/11/12,Southampton,Newcastle,poor,poor,15,11,11.92,12.67,6.17,5.92,2.3,3.5,3,H
+25/11/12,Swansea,Liverpool,average,average,9,10,12.75,15.92,7.67,8.08,3.4,3.5,2.1,D
+25/11/12,Tottenham,West Ham,poor,good,8,7,14.75,11.75,8.5,7.17,1.67,3.75,5.5,H
+27/11/12,Aston Villa,Reading,poor,good,14,15,10.54,10.5,6.46,5.25,1.95,3.4,4,H
+27/11/12,Sunderland,QPR,average,poor,13,16,8.83,12.38,4.83,6.85,2.25,3.25,3.3,D
+28/11/12,Chelsea,Fulham,poor,poor,4,9,13.15,13.15,7.46,8.31,1.44,4.5,7,D
+28/11/12,Everton,Arsenal,average,good,4,5,17.77,14.38,9.92,7.54,2.5,3.4,2.75,D
+28/11/12,Man United,West Ham,average,good,1,7,14.15,11.62,8.15,7.08,1.22,6.5,12,H
+28/11/12,Southampton,Norwich,good,good,13,10,12.31,10.23,6.46,5.15,2,3.4,3.8,D
+28/11/12,Stoke,Newcastle,good,poor,9,10,9.38,12.31,4.69,5.69,1.91,3.4,4.2,H
+28/11/12,Swansea,West Brom,good,good,8,3,13.08,11.62,7.69,6.46,2.3,3.4,3.1,H
+28/11/12,Tottenham,Liverpool,poor,good,6,9,15.54,16.31,8.85,8.54,2.4,3.4,2.88,H
+28/11/12,Wigan,Man City,poor,good,11,2,11.77,17.15,6.38,10.0,6,4.2,1.53,A
+1/12/2012,Arsenal,Swansea,good,good,6,7,14.21,13.07,7.64,7.71,1.44,4.5,7,A
+1/12/2012,Fulham,Tottenham,poor,average,8,4,12.79,15.43,8.21,8.71,2.88,3.3,2.5,A
+1/12/2012,Liverpool,Southampton,good,good,9,12,16.14,12.0,8.57,6.14,1.4,4.5,8.5,H
+1/12/2012,Man City,Everton,good,poor,2,5,17.0,17.5,9.71,9.93,1.5,4,7,D
+1/12/2012,QPR,Aston Villa,poor,poor,12,9,12.43,10.86,7.0,6.5,1.95,3.5,4,D
+1/12/2012,Reading,Man United,average,average,11,1,10.54,14.79,5.31,8.5,7.5,4.75,1.4,A
+1/12/2012,West Brom,Stoke,good,good,3,6,11.21,9.5,6.14,4.71,2.1,3.25,3.75,A
+1/12/2012,West Ham,Chelsea,poor,poor,7,3,11.43,13.43,6.79,7.86,4,3.5,1.91,H
+2/12/2012,Norwich,Sunderland,good,average,9,11,10.14,9.15,5.14,5.08,2.1,3.3,3.6,H
+3/12/2012,Newcastle,Wigan,poor,average,9,9,11.93,11.57,5.71,6.21,2,3.4,3.75,H
+8/12/2012,Arsenal,West Brom,average,average,6,3,13.93,11.4,7.67,6.47,1.5,4.33,6.5,H
+8/12/2012,Aston Villa,Stoke,good,good,9,6,10.6,9.27,6.27,4.67,2.4,3.2,3.1,D
+8/12/2012,Southampton,Reading,good,poor,12,13,11.73,10.5,6.0,5.43,1.91,3.6,4,H
+8/12/2012,Sunderland,Chelsea,poor,average,11,3,9.64,13.6,5.14,7.93,4.75,3.5,1.8,A
+8/12/2012,Swansea,Norwich,good,average,6,8,13.0,9.93,7.87,5.13,1.8,3.6,4.5,A
+8/12/2012,Wigan,QPR,average,poor,11,14,11.4,12.73,6.07,7.33,2.3,3.4,3.1,D
+9/12/2012,Everton,Tottenham,average,good,6,4,16.87,15.07,9.6,8.53,2,3.5,3.75,H
+9/12/2012,Man City,Man United,good,good,2,1,16.47,14.47,9.47,8.27,2.2,3.5,3.2,A
+9/12/2012,West Ham,Liverpool,poor,poor,7,8,11.73,16.67,7.2,8.73,3,3.3,2.38,A
+10/12/2012,Fulham,Newcastle,poor,poor,8,8,12.47,12.2,7.8,5.87,1.91,3.6,4,H
+11/12/2012,Sunderland,Reading,poor,poor,11,12,9.93,10.2,5.47,5.2,2,3.5,3.75,H
+15/12/12,Liverpool,Aston Villa,average,good,7,11,16.63,10.5,8.69,6.19,1.36,4.75,9,A
+15/12/12,Man United,Sunderland,good,poor,1,11,14.06,10.31,7.94,5.81,1.2,6.5,15,H
+15/12/12,Newcastle,Man City,average,good,10,2,12.69,16.44,6.31,9.56,5.5,3.75,1.67,A
+15/12/12,Norwich,Wigan,good,poor,7,12,9.94,11.56,5.31,6.25,2.2,3.4,3.25,H
+15/12/12,QPR,Fulham,average,poor,15,9,12.44,12.69,7.13,7.75,2.4,3.4,2.88,H
+15/12/12,Stoke,Everton,good,average,7,4,8.75,16.88,4.38,9.69,3.1,3.2,2.4,D
+16/12/12,Tottenham,Swansea,good,good,5,8,14.63,13.5,8.38,8.0,1.62,4,5.5,H
+16/12/12,West Brom,West Ham,poor,average,5,9,11.13,11.56,6.19,7.13,2,3.5,3.75,D
+17/12/12,Reading,Arsenal,poor,poor,15,6,10.31,14.06,5.19,7.63,5.5,4,1.62,A
+22/12/12,Liverpool,Fulham,good,average,8,9,17.18,12.29,9.18,7.47,1.53,4,6.5,H
+22/12/12,Man City,Reading,poor,poor,2,14,16.41,10.12,9.59,5.18,1.14,8,19,H
+22/12/12,Newcastle,QPR,average,average,10,13,12.94,12.82,6.41,7.24,2.1,3.4,3.5,H
+22/12/12,Southampton,Sunderland,poor,average,11,10,12.13,10.47,6.19,6.06,2,3.5,3.75,A
+22/12/12,Tottenham,Stoke,average,good,3,6,15.18,9.06,8.82,4.59,1.62,3.75,6,D
+22/12/12,West Brom,Norwich,poor,good,5,6,11.59,10.29,6.41,5.59,1.91,3.6,4,H
+22/12/12,West Ham,Everton,average,good,7,5,11.47,16.41,6.82,9.41,2.88,3.25,2.5,A
+22/12/12,Wigan,Arsenal,poor,average,11,5,11.59,14.71,6.24,8.18,4.75,3.75,1.73,A
+23/12/12,Chelsea,Aston Villa,poor,average,4,9,13.44,10.41,7.75,6.18,1.33,5.5,8.5,H
+23/12/12,Swansea,Man United,average,good,6,1,12.94,14.12,7.53,7.82,5,4,1.67,D
+26/12/12,Aston Villa,Tottenham,good,average,10,4,10.22,15.5,6.06,9.11,3.75,3.5,2,A
+26/12/12,Everton,Wigan,good,poor,5,12,16.33,11.67,9.33,6.17,1.44,4.5,7,H
+26/12/12,Fulham,Southampton,average,average,9,12,12.0,12.18,7.39,6.24,1.85,3.6,4.2,D
+26/12/12,Man United,Newcastle,good,poor,1,10,14.39,13.22,8.28,6.5,1.22,6.5,13,H
+26/12/12,Norwich,Chelsea,good,average,6,4,10.28,14.06,5.5,8.35,6,3.75,1.62,A
+26/12/12,QPR,West Brom,good,poor,15,5,12.39,11.61,7.06,6.5,2.2,3.4,3.25,A
+26/12/12,Reading,Swansea,poor,poor,16,7,9.89,13.0,4.94,7.67,2.9,3.4,2.38,D
+26/12/12,Stoke,Liverpool,average,average,6,6,8.78,17.44,4.44,9.33,3.4,3.2,2.25,H
+26/12/12,Sunderland,Man City,average,average,11,2,10.44,16.44,6.06,9.61,6.5,4,1.53,H
+29/12/12,Arsenal,Newcastle,good,average,5,11,14.44,13.37,8.17,6.74,1.44,4.5,7,H
+29/12/12,Aston Villa,Wigan,average,poor,11,13,9.89,11.58,5.79,6.16,2.4,3.25,3,A
+29/12/12,Fulham,Swansea,poor,poor,9,6,11.89,12.84,7.11,7.47,2.1,3.4,3.5,A
+29/12/12,Man United,West Brom,good,good,1,4,14.47,11.63,8.37,6.47,1.3,5.5,10,H
+29/12/12,Norwich,Man City,average,good,6,2,10.16,16.58,5.42,9.74,6,4,1.57,A
+29/12/12,Reading,West Ham,poor,poor,13,7,9.53,11.17,4.79,6.72,2.88,3.25,2.5,H
+29/12/12,Stoke,Southampton,average,average,5,12,8.68,11.89,4.53,6.06,1.8,3.5,4.75,D
+29/12/12,Sunderland,Tottenham,average,good,9,4,10.53,15.74,6.05,9.47,3.5,3.4,2.1,A
+30/12/12,Everton,Chelsea,good,good,5,4,16.37,14.39,9.32,8.5,2.88,3.3,2.5,A
+30/12/12,QPR,Liverpool,average,average,16,8,12.68,17.16,7.11,9.16,4,3.5,1.91,A
+1/1/2013,Man City,Stoke,average,good,2,6,16.4,8.75,9.7,4.7,1.29,5.5,11,H
+1/1/2013,Southampton,Arsenal,poor,good,14,5,11.68,14.53,6.11,8.37,5,3.75,1.7,D
+1/1/2013,Swansea,Aston Villa,average,poor,8,14,12.7,9.95,7.55,5.7,1.57,4,6,D
+1/1/2013,Tottenham,Reading,good,poor,4,16,15.85,9.2,9.7,4.65,1.33,5,10,H
+1/1/2013,West Brom,Fulham,good,poor,6,12,11.7,12.4,6.6,7.4,2,3.5,3.75,A
+1/1/2013,West Ham,Norwich,poor,poor,11,9,11.16,10.3,6.53,5.55,2.1,3.4,3.5,H
+1/1/2013,Wigan,Man United,poor,good,15,1,11.45,14.6,6.15,8.65,6,4.2,1.53,A
+2/1/2013,Chelsea,QPR,good,poor,4,17,14.42,12.75,8.58,7.1,1.2,6.5,15,A
+2/1/2013,Liverpool,Sunderland,average,good,8,12,17.1,10.45,9.25,6.05,1.4,4.5,8.5,H
+2/1/2013,Newcastle,Everton,average,good,13,6,13.2,16.15,6.8,9.15,3,3.4,2.38,A
+12/1/2013,Aston Villa,Southampton,poor,average,15,16,9.86,11.55,5.71,6.1,2.55,3.5,2.9,A
+12/1/2013,Everton,Swansea,average,good,5,9,15.71,13.19,9.0,7.81,1.57,4.2,6.5,D
+12/1/2013,Fulham,Wigan,poor,average,13,18,12.29,11.24,7.29,6.0,2.05,3.5,4,D
+12/1/2013,Norwich,Newcastle,poor,poor,12,15,10.24,13.24,5.43,7.0,2.2,3.6,3.4,D
+12/1/2013,QPR,Tottenham,poor,good,16,3,12.52,16.52,7.0,10.19,4.5,3.8,1.85,D
+12/1/2013,Reading,West Brom,good,average,17,7,9.1,11.95,4.62,6.76,3,3.4,2.5,H
+12/1/2013,Stoke,Chelsea,good,good,10,4,8.52,14.85,4.62,8.7,4.33,3.5,1.95,A
+12/1/2013,Sunderland,West Ham,average,poor,13,11,10.24,11.3,6.0,6.6,2.38,3.3,3.3,H
+13/01/13,Arsenal,Man City,good,average,6,2,14.1,16.43,8.15,9.67,2.63,3.5,2.8,A
+13/01/13,Man United,Liverpool,good,average,1,8,14.57,17.57,8.67,9.57,1.91,3.8,4.2,H
+16/01/13,Chelsea,Southampton,average,average,3,13,14.67,11.52,8.71,6.0,1.25,6.5,15,D
+19/01/13,Liverpool,Norwich,good,poor,8,11,17.32,10.32,9.36,5.32,1.33,5.5,10.5,H
+19/01/13,Man City,Fulham,good,average,2,11,16.41,12.36,9.64,7.18,1.25,6.5,14,H
+19/01/13,Newcastle,Reading,poor,average,13,15,13.05,9.0,6.86,4.73,1.75,4,5,A
+19/01/13,Swansea,Stoke,good,poor,8,9,12.77,8.64,7.55,4.64,2.2,3.4,3.6,H
+19/01/13,West Brom,Aston Villa,poor,poor,7,13,11.91,10.14,6.73,5.91,1.75,4,5,D
+19/01/13,West Ham,QPR,average,average,9,15,11.19,12.14,6.48,6.73,2.1,3.5,3.75,D
+19/01/13,Wigan,Sunderland,average,poor,15,11,11.41,10.59,6.0,6.36,2.15,3.4,3.8,A
+20/01/13,Chelsea,Arsenal,average,good,3,6,14.86,13.86,8.77,7.95,1.91,3.6,4,H
+20/01/13,Tottenham,Man United,good,good,4,1,16.5,14.59,10.09,8.73,2.9,3.6,2.5,D
+21/01/13,Southampton,Everton,good,average,13,5,11.32,15.73,5.86,8.95,3.6,3.5,2.05,D
+23/01/13,Arsenal,West Ham,poor,average,6,10,13.77,11.68,7.95,6.77,1.44,4.75,8,H
+29/01/13,Aston Villa,Newcastle,poor,poor,16,15,10.17,13.13,5.96,7.0,2.9,3.4,2.6,A
+29/01/13,QPR,Man City,good,good,18,2,12.0,16.57,6.7,9.7,7.5,4.5,1.5,D
+29/01/13,Stoke,Wigan,poor,poor,9,17,8.57,11.78,4.52,6.22,2.2,3.3,3.75,D
+29/01/13,Sunderland,Swansea,average,average,10,8,10.57,12.74,6.3,7.48,2.5,3.4,3,D
+30/01/13,Arsenal,Liverpool,poor,average,6,7,14.17,17.3,8.35,9.39,2.4,3.5,3.1,D
+30/01/13,Everton,West Brom,good,poor,5,7,15.48,12.48,8.87,6.83,1.6,4.1,6.5,H
+30/01/13,Fulham,West Ham,good,poor,12,10,11.96,11.48,6.87,6.7,2.2,3.5,3.5,H
+30/01/13,Man United,Southampton,good,good,1,14,14.22,11.43,8.52,6.09,1.25,6.5,14,H
+30/01/13,Norwich,Tottenham,poor,good,12,4,10.09,16.78,5.22,10.43,4.75,3.75,1.83,D
+30/01/13,Reading,Chelsea,average,good,16,3,8.87,14.78,4.61,8.74,7.5,4.5,1.5,D
+2/2/2013,Arsenal,Stoke,average,poor,6,9,14.17,8.58,8.25,4.5,1.44,4.5,9,H
+2/2/2013,Everton,Aston Villa,average,poor,5,14,15.29,10.17,8.67,5.88,1.4,5,9,D
+2/2/2013,Fulham,Man United,poor,good,10,1,12.0,14.08,6.83,8.46,5.5,4.2,1.65,A
+2/2/2013,Newcastle,Chelsea,poor,good,12,3,13.0,14.75,7.0,8.58,4,3.6,2,H
+2/2/2013,QPR,Norwich,average,poor,15,11,11.71,10.0,6.54,5.17,1.95,3.6,4.33,D
+2/2/2013,Reading,Sunderland,good,good,14,9,8.71,10.29,4.5,6.13,2.5,3.4,3,H
+2/2/2013,West Ham,Swansea,poor,good,11,7,11.33,12.96,6.58,7.5,2.4,3.4,3.2,H
+2/2/2013,Wigan,Southampton,poor,average,14,12,11.75,11.83,6.21,6.25,2.2,3.5,3.5,D
+3/2/2013,Man City,Liverpool,good,average,2,6,16.5,17.0,9.58,9.21,1.83,3.9,4.5,D
+3/2/2013,West Brom,Tottenham,poor,average,7,4,12.25,16.58,6.71,10.29,3.6,3.4,2.2,A
+9/2/2013,Chelsea,Wigan,good,poor,3,15,14.64,11.48,8.48,6.08,1.36,5.5,9.5,H
+9/2/2013,Norwich,Fulham,poor,average,11,11,10.16,12.12,5.32,6.88,2.3,3.4,3.4,D
+9/2/2013,Southampton,Man City,poor,good,12,2,11.96,16.2,6.28,9.4,5.75,4,1.67,H
+9/2/2013,Stoke,Reading,poor,good,9,12,8.48,8.72,4.4,4.52,1.91,3.5,4.6,H
+9/2/2013,Sunderland,Arsenal,good,good,11,6,10.28,14.2,6.12,8.28,4.5,3.6,1.91,A
+9/2/2013,Swansea,QPR,good,average,8,15,12.88,11.84,7.48,6.56,1.83,3.75,4.75,H
+9/2/2013,Tottenham,Newcastle,average,average,4,13,16.76,13.24,10.4,7.24,1.67,4,5.75,H
+10/2/2013,Aston Villa,West Ham,poor,poor,15,11,10.08,11.6,5.8,6.68,2.63,3.4,2.88,H
+10/2/2013,Man United,Everton,good,good,1,6,14.04,15.56,8.44,8.84,1.75,3.9,5,H
+11/2/2013,Liverpool,West Brom,good,poor,8,9,17.16,11.92,9.32,6.56,1.4,5,9,A
+17/02/13,Liverpool,Swansea,average,poor,8,7,17.38,12.88,9.5,7.65,1.57,4.4,6,H
+23/02/13,Arsenal,Aston Villa,good,poor,5,13,14.35,9.96,8.31,5.65,1.33,5.5,11,H
+23/02/13,Fulham,Stoke,average,poor,11,9,11.92,8.65,6.81,4.62,2.2,3.3,3.75,H
+23/02/13,Norwich,Everton,average,good,12,6,10.35,15.31,5.42,8.81,3.8,3.5,2.1,H
+23/02/13,QPR,Man United,average,good,17,1,11.92,13.88,6.62,8.35,7,4.33,1.53,A
+23/02/13,Reading,Wigan,good,average,15,16,8.58,11.54,4.5,6.23,2.63,3.4,2.88,A
+23/02/13,West Brom,Sunderland,poor,poor,8,12,11.62,10.35,6.42,6.15,2.05,3.5,4,H
+24/02/13,Man City,Chelsea,average,poor,2,3,15.85,15.04,9.19,8.81,1.95,3.6,4.33,H
+24/02/13,Newcastle,Southampton,good,poor,14,14,13.08,12.0,7.23,6.31,2.2,3.5,3.2,H
+25/02/13,West Ham,Tottenham,average,good,12,4,11.65,16.73,6.69,10.35,3.6,3.5,2.15,A
+2/3/2013,Chelsea,West Brom,average,average,4,7,14.63,11.81,8.52,6.44,1.4,5,9,H
+2/3/2013,Everton,Reading,poor,average,6,16,15.15,8.52,8.67,4.37,1.38,5,10,H
+2/3/2013,Man United,Norwich,good,average,1,11,13.85,10.33,8.33,5.56,1.33,5.5,11,H
+2/3/2013,Southampton,QPR,good,poor,14,17,11.96,11.93,6.33,6.56,1.85,3.8,4.5,A
+2/3/2013,Stoke,West Ham,average,average,10,12,8.59,11.52,4.52,6.67,2.15,3.25,4,A
+2/3/2013,Sunderland,Fulham,poor,poor,13,11,10.33,12.22,6.15,6.89,2.4,3.3,3.3,D
+2/3/2013,Swansea,Newcastle,average,average,9,12,12.56,13.0,7.48,7.15,2.1,3.6,3.75,H
+2/3/2013,Wigan,Liverpool,poor,poor,13,8,11.63,17.96,6.3,9.81,4.5,3.75,1.85,A
+3/3/2013,Tottenham,Arsenal,good,good,4,5,17.04,14.7,10.56,8.52,2.3,3.6,3.25,H
+4/3/2013,Aston Villa,Man City,good,poor,13,2,9.78,15.81,5.56,9.26,7.5,4.5,1.44,A
+9/3/2013,Norwich,Southampton,good,average,10,12,10.0,12.14,5.39,6.43,2.5,3.4,3,D
+9/3/2013,QPR,Sunderland,poor,poor,14,10,11.68,10.39,6.43,6.14,2.25,3.4,3.5,H
+9/3/2013,Reading,Aston Villa,poor,average,13,12,8.64,9.79,4.43,5.54,2.45,3.4,3.1,A
+9/3/2013,West Brom,Swansea,good,average,8,8,11.68,12.46,6.36,7.46,2.45,3.3,3.2,H
+10/3/2013,Liverpool,Tottenham,average,good,8,3,17.61,16.82,9.71,10.36,1.95,3.8,4,H
+10/3/2013,Newcastle,Stoke,average,average,10,9,13.04,8.64,7.14,4.43,1.83,3.7,4.8,H
+16/03/13,Aston Villa,QPR,poor,average,12,14,10.07,11.79,5.59,6.48,2.3,3.4,3.4,H
+16/03/13,Everton,Man City,poor,average,6,2,15.25,15.96,8.79,9.36,3.9,3.6,2.05,H
+16/03/13,Man United,Reading,good,poor,1,14,13.82,8.69,8.39,4.41,1.17,9,19,H
+16/03/13,Southampton,Liverpool,poor,good,12,7,12.24,17.34,6.45,9.52,4.2,3.8,1.91,H
+16/03/13,Stoke,West Brom,poor,average,10,8,8.59,11.69,4.41,6.34,2.5,3.3,3.1,D
+16/03/13,Swansea,Arsenal,average,good,9,6,12.34,14.54,7.34,8.43,3.4,3.5,2.25,A
+17/03/13,Chelsea,West Ham,average,poor,4,11,15.0,11.46,8.89,6.68,1.4,5,9,H
+17/03/13,Sunderland,Norwich,poor,average,13,11,10.28,9.76,6.03,5.28,2.05,3.5,4,D
+17/03/13,Tottenham,Fulham,good,good,4,11,16.76,12.04,10.31,6.79,1.5,4.5,7.5,A
+17/03/13,Wigan,Newcastle,average,average,15,12,11.75,13.07,6.46,7.1,2.3,3.4,3.4,H
+30/03/13,Arsenal,Reading,average,poor,5,16,14.55,8.57,8.52,4.3,1.25,6.5,15,H
+30/03/13,Everton,Stoke,average,poor,6,11,15.1,8.73,8.66,4.43,1.57,3.9,7.5,H
+30/03/13,Man City,Newcastle,good,average,2,12,16.0,12.93,9.41,7.0,1.33,5.5,11,H
+30/03/13,Southampton,Chelsea,poor,average,13,3,12.4,15.31,6.63,9.07,3.5,3.5,2.2,H
+30/03/13,Sunderland,Man United,poor,good,13,1,10.47,13.93,6.1,8.38,6,4,1.65,A
+30/03/13,Swansea,Tottenham,average,average,9,4,12.23,16.6,7.17,10.17,3.4,3.4,2.3,A
+30/03/13,West Ham,West Brom,average,average,12,8,11.59,11.6,6.76,6.3,2.3,3.4,3.4,H
+30/03/13,Wigan,Norwich,average,poor,15,11,11.79,9.67,6.59,5.2,1.95,3.6,4.33,H
+31/03/13,Aston Villa,Liverpool,average,good,14,7,10.07,17.03,5.6,9.4,5,4,1.75,A
+1/4/2013,Fulham,QPR,good,good,10,15,11.83,12.0,6.62,6.63,2,3.6,4,H
+6/4/2013,Norwich,Swansea,average,poor,12,9,9.65,12.19,5.19,7.03,2.63,3.3,2.9,D
+6/4/2013,Reading,Southampton,poor,good,17,13,8.42,12.42,4.23,6.68,3.3,3.6,2.25,A
+6/4/2013,Stoke,Aston Villa,poor,good,14,17,8.77,10.06,4.45,5.65,2.1,3.4,4,A
+6/4/2013,West Brom,Arsenal,good,average,8,5,11.77,14.83,6.45,8.7,4.1,3.7,1.95,A
+7/4/2013,Chelsea,Sunderland,good,poor,5,16,15.03,10.42,8.9,6.03,1.36,5,11,H
+7/4/2013,Liverpool,West Ham,average,average,7,12,17.0,11.67,9.48,6.8,1.36,5.5,9,D
+7/4/2013,Newcastle,Fulham,average,good,14,10,12.68,11.73,6.81,6.57,2.1,3.5,3.8,H
+7/4/2013,QPR,Wigan,average,average,18,17,12.23,11.83,6.77,6.57,2.38,3.4,3.25,D
+7/4/2013,Tottenham,Everton,poor,good,4,6,16.35,15.1,10.06,8.67,2.2,3.4,3.6,D
+8/4/2013,Man United,Man City,good,average,1,2,13.8,16.1,8.3,9.47,2.3,3.5,3.3,A
+13/04/13,Arsenal,Norwich,good,poor,4,12,14.71,9.72,8.61,5.31,1.25,6.5,14,H
+13/04/13,Aston Villa,Fulham,average,good,14,9,10.09,11.52,5.72,6.45,2.3,3.3,3.5,D
+13/04/13,Everton,QPR,good,poor,5,15,14.9,12.03,8.55,6.63,1.44,4.75,8,H
+13/04/13,Reading,Liverpool,poor,average,16,6,8.41,17.06,4.19,9.56,8,4.75,1.45,D
+13/04/13,Southampton,West Ham,good,average,10,10,12.41,11.61,6.59,6.71,1.91,3.75,4.2,D
+14/04/13,Newcastle,Sunderland,poor,poor,11,14,12.91,10.31,6.91,5.94,1.95,3.5,4.5,A
+14/04/13,Stoke,Man United,poor,good,13,1,8.69,13.87,4.38,8.26,7,3.9,1.6,A
+16/04/13,Arsenal,Everton,good,good,3,5,14.56,14.88,8.56,8.59,1.75,3.9,5,D
+17/04/13,Fulham,Chelsea,average,average,9,4,11.41,15.0,6.34,8.84,4.75,3.8,1.8,A
+17/04/13,Man City,Wigan,average,good,2,15,15.87,11.97,9.32,6.68,1.25,6.5,14,H
+17/04/13,West Ham,Man United,good,average,11,1,11.44,13.72,6.63,8.09,5.5,3.9,1.7,D
+20/04/13,Fulham,Arsenal,poor,good,10,4,11.39,14.42,6.36,8.48,5,4,1.75,A
+20/04/13,Norwich,Reading,poor,poor,14,17,9.58,8.36,5.3,4.21,1.75,3.8,5.25,H
+20/04/13,QPR,Stoke,poor,poor,16,14,11.91,8.82,6.58,4.36,2.25,3.4,3.5,A
+20/04/13,Sunderland,Everton,poor,good,15,6,10.24,14.73,5.97,8.48,3.4,3.4,2.3,H
+20/04/13,Swansea,Southampton,poor,good,9,12,12.31,12.48,7.09,6.73,2.38,3.5,3.1,D
+20/04/13,West Brom,Newcastle,poor,average,8,14,11.91,12.97,6.41,6.97,2.25,3.5,3.4,D
+20/04/13,West Ham,Wigan,average,good,11,15,11.39,11.84,6.55,6.66,2.3,3.5,3.3,H
+21/04/13,Liverpool,Chelsea,good,average,7,4,17.33,14.94,9.73,8.88,2.15,3.6,3.6,D
+21/04/13,Tottenham,Man City,average,good,5,2,16.44,15.69,10.06,9.16,3.25,3.6,2.3,H
+22/04/13,Man United,Aston Villa,average,average,1,14,13.76,10.24,8.12,5.76,1.25,6.75,13,H
+27/04/13,Everton,Fulham,good,poor,6,10,14.53,11.26,8.38,6.32,1.5,4.5,7.5,H
+27/04/13,Man City,West Ham,good,average,2,9,15.55,11.56,9.09,6.68,1.29,6,12,H
+27/04/13,Newcastle,Liverpool,average,average,13,7,12.88,17.5,6.94,9.79,2.88,3.6,2.5,A
+27/04/13,Southampton,West Brom,good,poor,11,8,12.38,11.79,6.68,6.33,1.85,3.75,4.6,A
+27/04/13,Stoke,Norwich,poor,poor,13,12,8.88,9.85,4.35,5.41,2.25,3.3,3.6,H
+27/04/13,Wigan,Tottenham,poor,good,15,5,12.03,16.27,6.76,10.0,3.8,3.6,2.05,D
+28/04/13,Arsenal,Man United,good,good,3,1,14.29,13.65,8.44,8.03,2.25,3.6,3.3,D
+28/04/13,Chelsea,Swansea,good,poor,4,8,14.76,12.36,8.79,7.09,1.36,5.5,9,H
+28/04/13,Reading,QPR,poor,poor,16,16,8.53,12.29,4.26,6.71,2.55,3.5,2.88,D
+29/04/13,Aston Villa,Sunderland,good,average,14,13,10.18,10.18,5.74,5.91,2.3,3.4,3.4,H
+4/5/2013,Fulham,Reading,poor,poor,10,15,11.11,8.66,6.2,4.34,1.73,3.9,5.25,A
+4/5/2013,Norwich,Aston Villa,average,poor,12,13,9.71,10.4,5.26,6.0,2.55,3.3,3,A
+4/5/2013,QPR,Arsenal,poor,good,16,4,12.37,14.43,6.66,8.57,8,4.75,1.44,A
+4/5/2013,Swansea,Man City,average,average,9,2,12.32,15.56,7.12,9.12,5.25,3.8,1.75,D
+4/5/2013,Tottenham,Southampton,good,average,5,12,16.21,12.49,9.91,6.6,1.44,4.75,8,H
+4/5/2013,West Brom,Wigan,poor,poor,7,14,11.76,11.85,6.41,6.68,2.45,3.5,3,A
+4/5/2013,West Ham,Newcastle,good,poor,9,13,11.49,12.66,6.66,6.77,2.38,3.4,3.25,D
+5/5/2013,Liverpool,Everton,average,poor,6,5,17.31,14.6,9.8,8.43,1.95,3.6,4.2,D
+5/5/2013,Man United,Chelsea,good,good,1,4,13.54,14.94,7.94,8.94,2.2,3.5,3.5,A
+6/5/2013,Sunderland,Stoke,good,average,13,10,10.09,8.97,5.86,4.34,2.1,3.3,4,D
+7/5/2013,Man City,West Brom,average,good,2,8,15.46,11.91,9.09,6.54,1.4,5,9,H
+7/5/2013,Wigan,Swansea,poor,poor,14,9,11.89,12.17,6.71,6.94,1.83,3.75,4.75,A
+8/5/2013,Chelsea,Tottenham,good,good,3,5,14.94,15.94,8.86,9.74,1.95,3.75,4,D
+11/5/2013,Aston Villa,Chelsea,average,good,12,3,10.44,14.94,6.0,8.83,4.5,3.8,1.85,A
+12/5/2013,Everton,West Ham,average,average,6,10,14.5,11.42,8.31,6.56,1.5,4.5,7.5,H
+12/5/2013,Fulham,Liverpool,poor,good,12,7,11.31,17.28,6.39,9.75,3.9,3.6,2.05,A
+12/5/2013,Man United,Swansea,good,poor,1,9,13.44,12.11,7.83,6.92,1.3,5.75,12,H
+12/5/2013,Norwich,West Brom,average,average,14,8,9.69,12.14,5.22,6.67,2.2,3.4,3.6,H
+12/5/2013,QPR,Newcastle,poor,poor,17,14,12.42,12.61,6.64,6.75,3.4,3.4,2.3,A
+12/5/2013,Stoke,Tottenham,good,good,11,5,9.03,15.86,4.42,9.64,4.5,3.6,1.91,A
+12/5/2013,Sunderland,Southampton,average,poor,14,13,10.19,12.42,5.89,6.58,2.8,3.2,2.8,D
+14/05/13,Arsenal,Wigan,good,good,5,14,14.39,11.94,8.64,6.83,1.4,5.5,8,H
+14/05/13,Reading,Man City,poor,good,15,2,8.97,15.61,4.58,9.08,6,4.33,1.6,A
+19/05/13,Chelsea,Everton,good,good,3,6,14.84,14.73,8.81,8.43,1.7,4,5.5,H
+19/05/13,Liverpool,QPR,good,poor,7,16,17.35,12.3,9.86,6.54,1.25,7,12,H
+19/05/13,Man City,Norwich,good,poor,2,11,15.92,9.73,9.38,5.3,1.33,5.5,11,A
+19/05/13,Newcastle,Arsenal,poor,good,12,4,12.54,14.51,6.76,8.73,6,4.6,1.55,A
+19/05/13,Southampton,Stoke,poor,good,13,12,12.49,8.95,6.68,4.38,1.75,3.8,5.25,D
+19/05/13,Swansea,Fulham,good,poor,9,14,11.92,11.27,6.78,6.43,1.8,3.8,4.75,A
+19/05/13,Tottenham,Sunderland,good,poor,5,15,16.05,10.05,9.78,5.86,1.29,6,12,H
+19/05/13,West Brom,Man United,poor,poor,8,1,12.03,13.51,6.62,7.86,4.5,3.9,1.83,D
+19/05/13,West Ham,Reading,poor,good,11,17,11.3,9.03,6.43,4.65,1.67,4,5.75,H
+19/05/13,Wigan,Aston Villa,average,good,16,14,11.89,10.49,6.78,6.03,2.15,3.6,3.6,D

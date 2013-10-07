@@ -161,6 +161,10 @@ class Constants(object):
 	awayShots = "AS"
 	homeTargetShots = "HST"
 	awayTargetShots = "AST"
+	oddsH = "B365H"
+	oddsD = "B365D"
+	oddsA = "B365A"
+
 	perGame = "PG"
 
 	# classes
@@ -172,5 +176,6 @@ class Constants(object):
 	features = [date, hometeam, awayteam,
 	homeForm, awayForm, homePosition, awayPosition,
 	homeShots + perGame, awayShots + perGame, 
-	homeTargetShots + perGame, awayTargetShots + perGame, 
+	homeTargetShots + perGame, awayTargetShots + perGame,
+	oddsH, oddsD, oddsA, 
 	result]

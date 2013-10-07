@@ -51,6 +51,7 @@ class FeatureGen(object):
 			# print feature row
 			self.printFeatures()
 			for row in reader:
+				# skip the heading row
 				if (reader.line_num == 1) : continue
 				# create a new game and a game to hold data from csv row
 				game = football.Game(self.features)
@@ -72,6 +73,8 @@ class FeatureGen(object):
 				self.setTablePosition(game, home, away)
 				# set the shots and shots on target per game
 				self.setShots(game, rowGame, home, away)
+				# set the game odds
+				self.setOdds(game, rowGame)
 				# add the game to the list
 				self.games.append(game)
 				# update teams based on result
@@ -97,6 +100,11 @@ class FeatureGen(object):
 		aPos = self.table.getTeamPosition(away.name)
 		game.setAttr(Constants.homePosition, hPos)
 		game.setAttr(Constants.awayPosition, aPos)
+
+	def setOdds(self, game, rowGame):
+		game.setAttr(Constants.oddsH, rowGame.getAttr(Constants.oddsH))	
+		game.setAttr(Constants.oddsD, rowGame.getAttr(Constants.oddsD))	
+		game.setAttr(Constants.oddsA, rowGame.getAttr(Constants.oddsA))	
 
 	def setShots(self, game, rowGame, home, away):
 		# add the current shot per game stats to the game object
@@ -130,12 +138,6 @@ class FeatureGen(object):
 		else: # draw
 			home.addPoints(1)
 			away.addPoints(1)
-
-
-
-
-
-
 
 
 def main():
