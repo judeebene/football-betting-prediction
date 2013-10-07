@@ -117,30 +117,33 @@ class Team(object):
 	""" returns the teams current form
 	"""
 	def getCurrentForm(self, gameRange):		
+		rounds = len(self.results)
 		# return average if no games played yet
-		if len(self.results) == 0: 
+		if rounds == 0: 
 			return Constants.average_form
 
 		# adjust the range of games considered if nessessary
 		adjustedRange = gameRange
-		if len(self.results) < gameRange:
-			adjustedRange = len(self.results)
+		if rounds < gameRange:
+			adjustedRange = rounds
 
 		# calculate form points total
 		formPoints = 0
-		for i in range(-adjustedRange, -1):
+		for i in range(-adjustedRange, 0):
 			if self.results[i] == 3: # win
 				formPoints += 2
 			elif self.results[i] == 1: # draw
 				formPoints += 1
 
+
 		# determine form
-		if formPoints <=  adjustedRange / 3:
-			return Constants.poor_form
-		elif formPoints <= adjustedRange / 3 * 2:
+		formBand = (adjustedRange + 1) * 2 / 3;
+		if formPoints >= formBand * 2:
+			return Constants.good_form
+		elif formPoints >= formBand:
 			return Constants.average_form
 		else:
-			return Constants.good_form
+			return Constants.poor_form
 
 class Constants(object):
 	# form

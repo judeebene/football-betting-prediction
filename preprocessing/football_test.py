@@ -46,8 +46,6 @@ class FootballTestSuite(unittest.TestCase):
     	team = football.Team(teamname)
     	# simulate three wins
     	team.addPoints(3)
-    	team.addPoints(3)
-    	team.addPoints(3)
     	# exercise
     	form = team.getCurrentForm(3)
     	# verify
@@ -59,8 +57,19 @@ class FootballTestSuite(unittest.TestCase):
     	team = football.Team(teamname)
     	# simulate two wins and one loss
     	team.addPoints(0)
+    	team.addPoints(1)
     	team.addPoints(3)
-    	team.addPoints(3)
+    	# exercise
+    	form = team.getCurrentForm(3)
+    	# verify
+    	self.assertEqual(form, football.Constants.average_form)
+
+    def test_team_getCurrentForm_shouldGetAverageFormAfterSingleGame(self):
+    	# set up
+    	teamname = "Arsenal"
+    	team = football.Team(teamname)
+    	# simulate two wins and one loss
+    	team.addPoints(1)
     	# exercise
     	form = team.getCurrentForm(3)
     	# verify
