@@ -2,7 +2,7 @@ import sys
 import re
 
 class Table(object):
-	
+
 	def __init__(self):
 		self.teams = {}
 
@@ -64,18 +64,33 @@ class Game(object):
 		else: # draw
 			return result
 
-        def setNaiveBet(self, chance, bet, thresh):
-            if self.attributes[chance] >= thresh:
-                    self.attributes[bet] = "Make bet!"
-            else:
-                    self.attributes[bet] = "Don't make bet!"
+        def setNaiveBet(self, chanceH, chanceA, chanceD, bet, thresh):
+                # bets depeding on what has highest chance to win
+                home = self.attributes[chanceH]
+                away = self.attributes[chanceA]
+                draw = self.attributes[chanceD]
+                if home >= thresh and home > away and home > draw:
+                        self.attributes[bet] = "Make bet on home team!"
+                elif away >= thresh and away > home and away > draw:
+                        self.attributes[bet] = "Make bet on away team!"
+                elif draw >= thresh and draw > home and draw > away:
+                        self.attributes[bet] = "Make bet on a draw!"
+                else: # if under threshold dont bet
+                        self.attributes[bet] = "Don't make bet!"
 
-        def setBet(self, chance, bet, thresh, win):
-            weight = (1 - (1 / self.attributes[win]) + self.attributes[chance]) / 2
-            if weight >= thresh:
-                    self.attributes[bet] = "Make bet!"
-            else:
-                    self.attributes[bet] = "Don't make bet!"
+        def setBet(self, chanceH, chanceA, chanceD, bet, thresh, winH, winA, winD):
+                # bets depending on weighted value between chance to win and betting ratio
+                weightH = (1 - (1 / self.attributes[winH]) + self.attributes[chanceH]) / 2
+                weightA = (1 - (1 / self.attributes[winA]) + self.attributes[chanceA]) / 2
+                weightD = (1 - (1 / self.attributes[winD]) + self.attributes[chanceD]) / 2
+                if weightH >= thresh and weightH > weightA and weightH > weightD:
+                        self.attributes[bet] = "Make bet on home team!"
+                elif weightA >= thresh and weightA > weightH and weightA > weightD:
+                        self.attributes[bet] = "Make bet on away team!"
+                elif weightD >= thresh and weightD > weightH and weightD > weightA:
+                        self.attributes[bet] = "Make bet on a draw!"
+                else: # if under threshold dont bet
+                        self.attributes[bet] = "Don't make bet!"
 
 	def __str__(self):
 		strGame = ""
@@ -94,7 +109,7 @@ class Team(object):
 		self.shots = [] # total shots
 		self.targetShots = [] # shots on target
 
-	def addPoints(self, points):		
+	def addPoints(self, points):
 		self.results.append(points)
 
 	def addShots(self, total, onTarget):
@@ -129,10 +144,10 @@ class Team(object):
 
 	""" returns the teams current form
 	"""
-	def getCurrentForm(self, gameRange):		
+	def getCurrentForm(self, gameRange):
 		rounds = len(self.results)
 		# return average if no games played yet
-		if rounds == 0: 
+		if rounds == 0:
 			return Constants.average_form
 
 		# adjust the range of games considered if nessessary
@@ -191,7 +206,7 @@ class Constants(object):
 	# the features of the dataset
 	features = [date, hometeam, awayteam,
 	homeForm, awayForm, homePosition, awayPosition,
-	homeShots + perGame, awayShots + perGame, 
+	homeShots + perGame, awayShots + perGame,
 	homeTargetShots + perGame, awayTargetShots + perGame,
-	oddsH, oddsD, oddsA, 
+	oddsH, oddsD, oddsA,
 	result]
