@@ -64,6 +64,19 @@ class Game(object):
 		else: # draw
 			return result
 
+        def setNaiveBet(self, chance, bet, thresh):
+            if self.attributes[chance] >= thresh:
+                    self.attributes[bet] = "Make bet!"
+            else:
+                    self.attributes[bet] = "Don't make bet!"
+
+        def setBet(self, chance, bet, thresh, win):
+            weight = (1 - (1 / self.attributes[win]) + self.attributes[chance]) / 2
+            if weight >= thresh:
+                    self.attributes[bet] = "Make bet!"
+            else:
+                    self.attributes[bet] = "Don't make bet!"
+
 	def __str__(self):
 		strGame = ""
 		for key in self.ordered_keys:

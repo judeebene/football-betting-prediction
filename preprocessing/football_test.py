@@ -235,8 +235,97 @@ class FootballTestSuite(unittest.TestCase):
     	self.assertEqual(a, 1)
     	self.assertEqual(s, 2)
 
+    def test_betting_makeBet_shouldMakeNaiveBet(self):
+    	# set up
+    	home = "Arsenal"
+    	away = "Man U"
+    	result = "H"
+        chance = 0.7
+        bet = "Make bet!"
+        thresh = 0.6
+    	attrs = ["home team", "away team", "result", "chance", "bet"]
+    	expected = "{0},{1},{2},{3},{4}\n".format(home, away, result, chance, bet)
+    	g = football.Game(attrs)
+    	# set the attributes
+    	g.setAttr("home team", home)
+    	g.setAttr("away team", away)
+    	g.setAttr("result", result)
+    	g.setAttr("chance", chance)
+    	g.setNaiveBet("chance", "bet", thresh)
+    	# excercise
+    	row  = g.toCSVRow()
+    	# verify
+    	self.assertEqual(row, expected)
 
+    def test_betting_makeBet_shouldNotMakeNaiveBet(self):
+    	# set up
+    	home = "Arsenal"
+    	away = "Man U"
+    	result = "H"
+        chance = 0.5
+        bet = "Don't make bet!"
+        thresh = 0.6
+    	attrs = ["home team", "away team", "result", "chance", "bet"]
+    	expected = "{0},{1},{2},{3},{4}\n".format(home, away, result, chance, bet)
+    	g = football.Game(attrs)
+    	# set the attributes
+    	g.setAttr("home team", home)
+    	g.setAttr("away team", away)
+    	g.setAttr("result", result)
+    	g.setAttr("chance", chance)
+    	g.setNaiveBet("chance", "bet", thresh)
+    	# excercise
+    	row  = g.toCSVRow()
+    	# verify
+    	self.assertEqual(row, expected)    	
 
+    def test_betting_makeBet_shouldMakeBet(self):
+    	# set up
+    	home = "Arsenal"
+    	away = "Man U"
+    	result = "H"
+        chance = 0.6
+        bet = "Make bet!"
+        thresh = 0.6
+        ratio = 3
+    	attrs = ["home team", "away team", "result", "chance", "win ratio", "bet"]
+    	expected = "{0},{1},{2},{3},{4},{5}\n".format(home, away, result, chance, ratio, bet)
+    	g = football.Game(attrs)
+    	# set the attributes
+    	g.setAttr("home team", home)
+    	g.setAttr("away team", away)
+    	g.setAttr("result", result)
+    	g.setAttr("chance", chance)
+    	g.setAttr("win ratio", ratio)
+    	g.setBet("chance", "bet", thresh, "win ratio")
+    	# excercise
+    	row  = g.toCSVRow()
+    	# verify
+    	self.assertEqual(row, expected)
+
+    def test_betting_makeBet_shouldNotMakeBet(self):
+    	# set up
+    	home = "Arsenal"
+    	away = "Man U"
+    	result = "H"
+        chance = 0.6
+        bet = "Don't make bet!"
+        thresh = 0.6
+        ratio = 1.5
+    	attrs = ["home team", "away team", "result", "chance", "win ratio", "bet"]
+    	expected = "{0},{1},{2},{3},{4},{5}\n".format(home, away, result, chance, ratio, bet)
+    	g = football.Game(attrs)
+    	# set the attributes
+    	g.setAttr("home team", home)
+    	g.setAttr("away team", away)
+    	g.setAttr("result", result)
+    	g.setAttr("chance", chance)
+    	g.setAttr("win ratio", ratio)
+    	g.setBet("chance", "bet", thresh, "win ratio")
+    	# excercise
+    	row  = g.toCSVRow()
+    	# verify
+    	self.assertEqual(row, expected) 
 
 def main():
     unittest.main()
