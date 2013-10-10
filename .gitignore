@@ -3,3 +3,5 @@
 proposal/*
 
 !proposal/proposal.tex
+
+*.pyc
