@@ -1,0 +1,382 @@
+bet,net,inst,actual,predicted,probability,oddsH,oddsD,oddsA
+Make bet on home team!,-28.0,1,D,H,0.989,1.4,4.5,8.5
+Make bet on a draw!,-36.0,2,H,D,0.303,1.8,3.6,4.5
+Don't make bet!,0,3,H,D,0.023,2.5,3.4,2.75
+Make bet on a draw!,-40.0,4,A,D,0.163,2,3.4,3.8
+Don't make bet!,0,5,D,A,0.068,2.38,3.25,3.1
+Don't make bet!,0,6,H,A,0.024,4.2,3.5,1.91
+Don't make bet!,0,7,H,D,0.047,2.2,3.3,3.4
+Make bet on home team!,23.4,8,H,H,1,1.17,7,17
+Don't make bet!,0,9,A,A,0,6,3.75,1.62
+Don't make bet!,0,10,H,A,0.016,4.33,3.6,1.83
+Make bet on home team!,25.0,11,H,H,1,1.25,5.5,13
+Don't make bet!,0,12,A,D,0.023,2.9,3.4,2.4
+Make bet on home team!,30.0,13,H,H,0.993,1.5,4.33,6.5
+Make bet on home team!,25.8,14,H,H,1,1.29,5.5,11
+Make bet on a draw!,45.0,15,D,D,0.176,2.25,3.4,3.2
+Don't make bet!,0,16,A,D,0.048,2.1,3.4,3.5
+Make bet on a draw!,-42.0,17,H,D,0.11,2.1,3.3,3.6
+Make bet on home team!,-30.0,18,D,H,0.934,1.5,4.33,6.5
+Don't make bet!,0,19,D,D,0.084,3.1,3.4,2.3
+Don't make bet!,0,20,D,A,0.01,3.5,3.4,2.1
+Make bet on home team!,23.6,21,H,H,1,1.18,7,15
+Make bet on a draw!,44.0,22,D,D,0.13,2.2,3.3,3.4
+Make bet on home team!,-27.2,23,D,H,0.992,1.36,5,8.5
+Don't make bet!,0,24,H,D,0.028,3,3.3,2.38
+Don't make bet!,0,25,H,D,0.047,2.5,3.25,2.88
+Make bet on a draw!,45.0,26,D,D,0.198,2.25,3.25,3.3
+Make bet on a draw!,-40.0,27,A,D,0.125,2,3.5,3.75
+Make bet on a draw!,32.4,28,D,D,0.099,1.62,3.75,6
+Don't make bet!,0,29,A,A,0,6,4.2,1.53
+Make bet on home team!,27.2,30,H,H,0.993,1.36,5,8.5
+Make bet on a draw!,-47.6,31,H,D,0.142,2.38,3.25,3.1
+Make bet on a draw!,-42.0,32,H,D,0.149,2.1,3.4,3.5
+Make bet on home team!,25.0,33,H,H,1,1.25,6,12
+Don't make bet!,0,34,D,D,0.063,2.38,3.4,3
+Don't make bet!,0,35,D,A,0.001,4.5,3.5,1.83
+Don't make bet!,0,36,D,A,0.002,5,3.6,1.73
+Don't make bet!,0,37,D,D,0.043,3.4,3.3,2.2
+Don't make bet!,0,38,A,A,0.002,3.75,3.5,2
+Make bet on home team!,-34.6,39,D,H,0.522,1.73,3.6,5
+Make bet on home team!,27.2,40,H,H,0.999,1.36,4.75,9
+Don't make bet!,0,41,H,D,0.029,2.4,3.3,3
+Don't make bet!,0,42,A,D,0.015,3,3.3,2.4
+Make bet on away team!,-34.6,43,H,A,0.275,1.73,3.75,4.75
+Don't make bet!,0,44,D,D,0.092,2.1,3.3,3.6
+Don't make bet!,0,45,A,D,0.048,2.4,3.3,3
+Don't make bet!,0,46,A,A,0.051,2.7,3.3,2.63
+Make bet on home team!,-35.0,47,D,H,0.581,1.75,3.6,4.75
+Make bet on a draw!,-36.0,48,H,D,0.124,1.8,3.6,4.5
+Make bet on home team!,28.8,49,H,H,0.992,1.44,4.33,7.5
+Make bet on away team!,42.0,50,A,A,0.397,2.1,3.4,3.5
+Make bet on home team!,28.0,51,H,H,0.828,1.4,4.75,8
+Don't make bet!,0,52,A,D,0.02,4.33,3.6,1.83
+Make bet on home team!,-31.4,53,A,H,0.901,1.57,4,6
+Don't make bet!,0,54,A,A,0.007,4.75,3.75,1.73
+Don't make bet!,0,55,D,A,0.025,2.88,3.3,2.5
+Make bet on a draw!,-38.2,56,H,D,0.235,1.91,3.4,4.2
+Make bet on a draw!,-40.0,57,H,D,0.137,2,3.4,3.8
+Don't make bet!,0,58,D,D,0.064,2.4,3.3,3
+Don't make bet!,0,59,A,D,0.088,2.05,3.4,3.75
+Make bet on home team!,24.4,60,H,H,1,1.22,6.5,12
+Make bet on home team!,25.8,61,H,H,1,1.29,5.5,11
+Make bet on a draw!,38.2,62,D,D,0.148,1.91,3.6,4
+Make bet on a draw!,-36.6,63,H,D,0.339,1.83,3.75,4.2
+Don't make bet!,0,64,A,A,0.006,4,3.6,1.91
+Don't make bet!,0,65,D,D,0.006,4.2,3.4,1.91
+Make bet on home team!,-28.8,66,D,H,0.884,1.44,4.33,7.5
+Don't make bet!,0,67,A,A,0.004,4.2,3.75,1.83
+Don't make bet!,0,68,D,D,0.021,2.75,3.3,2.6
+Make bet on home team!,28.8,69,H,H,0.958,1.44,4.33,7.5
+Make bet on a draw!,-36.0,70,H,D,0.165,1.8,3.6,4.5
+Make bet on home team!,26.6,71,H,H,0.989,1.33,5,10
+Make bet on home team!,25.8,72,H,H,1,1.29,5.5,11
+Don't make bet!,0,73,H,A,0,6,4.2,1.53
+Don't make bet!,0,74,H,D,0.089,2.1,3.4,3.5
+Make bet on away team!,50.0,75,A,A,0.401,2.5,3.4,2.75
+Don't make bet!,0,76,A,A,0.003,5,3.75,1.7
+Make bet on a draw!,-36.6,77,H,D,0.077,1.83,3.75,4.2
+Don't make bet!,0,78,D,D,0.014,3.25,3.4,2.2
+Don't make bet!,0,79,D,D,0.102,2.5,3.3,2.88
+Make bet on home team!,27.2,80,H,H,0.997,1.36,5,8.5
+Make bet on a draw!,40.0,81,D,D,0.115,2,3.5,3.75
+Make bet on home team!,24.4,82,H,H,1,1.22,6,15
+Don't make bet!,0,83,D,D,0.035,2.75,3.4,2.5
+Make bet on a draw!,39.0,84,D,D,0.189,1.95,3.3,4.2
+Don't make bet!,0,85,H,D,0.069,2.25,3.4,3.2
+Make bet on home team!,-48.0,86,A,H,0.578,2.4,3.4,2.9
+Make bet on a draw!,52.0,87,D,D,0.325,2.6,3.3,2.75
+Make bet on a draw!,-40.0,88,H,D,0.086,2,3.5,3.75
+Don't make bet!,0,89,A,A,0.001,4.2,3.75,1.83
+Make bet on a draw!,55.0,90,D,D,0.097,2.75,3.4,2.5
+Make bet on home team!,34.0,91,H,H,0.87,1.7,3.8,5
+Make bet on a draw!,-52.0,92,H,D,0.11,2.6,3.3,2.75
+Don't make bet!,0,93,A,D,0.067,2.1,3.3,3.6
+Don't make bet!,0,94,D,A,0.002,4.5,3.6,1.8
+Make bet on home team!,-30.0,95,A,H,0.972,1.5,4.33,6.5
+Don't make bet!,0,96,D,A,0.001,5,3.8,1.7
+Make bet on home team!,-31.4,97,D,H,0.661,1.57,4,6
+Make bet on a draw!,36.0,98,D,D,0.13,1.8,3.6,4.5
+Make bet on a draw!,-34.6,99,H,D,0.166,1.73,3.75,4.75
+Make bet on home team!,-30.6,100,D,H,0.842,1.53,4.2,6
+Don't make bet!,0,101,A,A,0,7,4.5,1.44
+Make bet on home team!,28.8,102,H,H,0.775,1.44,4.2,8
+Don't make bet!,0,103,D,D,0.041,2.25,3.4,3.2
+Don't make bet!,0,104,D,D,0.063,2.38,3.5,2.88
+Make bet on a draw!,-38.2,105,H,D,0.332,1.91,3.4,4.2
+Don't make bet!,0,106,A,D,0.086,2.3,3.4,3.1
+Make bet on home team!,-39.0,107,D,H,0.91,1.95,3.5,4
+Make bet on home team!,31.4,108,H,H,0.74,1.57,4,6
+Make bet on a draw!,-39.0,109,A,D,0.175,1.95,3.6,3.8
+Make bet on home team!,38.2,110,H,H,0.496,1.91,3.75,3.8
+Make bet on home team!,28.8,111,H,H,0.807,1.44,4.33,7.5
+Make bet on home team!,24.0,112,H,H,1,1.2,6.5,15
+Make bet on a draw!,-38.2,113,A,D,0.182,1.91,3.6,4
+Don't make bet!,0,114,H,A,0,7,4.5,1.44
+Make bet on a draw!,-38.2,115,A,D,0.104,1.91,3.6,4
+Don't make bet!,0,116,H,D,0.003,4.33,3.6,1.83
+Don't make bet!,0,117,H,A,0.009,3.75,3.5,2
+Make bet on a draw!,-33.4,118,A,D,0.338,1.67,3.75,5.25
+Make bet on a draw!,40.0,119,D,D,0.135,2,3.4,3.8
+Don't make bet!,0,120,D,A,0.003,4.75,3.75,1.73
+Make bet on home team!,-28.8,121,D,H,0.771,1.44,4.33,7.5
+Make bet on home team!,23.4,122,H,H,1,1.17,7.5,15
+Don't make bet!,0,123,H,D,0.094,2.2,3.3,3.4
+Don't make bet!,0,124,A,D,0.066,2.5,3.3,2.88
+Make bet on a draw!,-36.6,125,H,D,0.1,1.83,3.6,4.33
+Make bet on home team!,-50.0,126,D,H,0.633,2.5,3.5,2.7
+Don't make bet!,0,127,H,D,0.044,2.3,3.5,3
+Don't make bet!,0,128,D,D,0.036,3.4,3.5,2.1
+Make bet on home team!,33.4,129,H,H,0.856,1.67,3.75,5.5
+Make bet on a draw!,-39.0,130,H,D,0.129,1.95,3.4,4
+Make bet on a draw!,45.0,131,D,D,0.268,2.25,3.25,3.3
+Make bet on home team!,-28.8,132,D,H,0.983,1.44,4.5,7
+Make bet on a draw!,50.0,133,D,D,0.099,2.5,3.4,2.75
+Make bet on home team!,24.4,134,H,H,1,1.22,6.5,12
+Don't make bet!,0,135,D,D,0.085,2,3.4,3.8
+Make bet on a draw!,-38.2,136,H,D,0.208,1.91,3.4,4.2
+Don't make bet!,0,137,H,D,0.07,2.3,3.4,3.1
+Make bet on home team!,48.0,138,H,H,0.708,2.4,3.4,2.88
+Don't make bet!,0,139,A,A,0,6,4.2,1.53
+Make bet on home team!,-28.8,140,A,H,0.975,1.44,4.5,7
+Don't make bet!,0,141,A,A,0.038,2.88,3.3,2.5
+Make bet on home team!,28.0,142,H,H,0.835,1.4,4.5,8.5
+Make bet on home team!,-30.0,143,D,H,0.801,1.5,4,7
+Don't make bet!,0,144,D,D,0.058,1.95,3.5,4
+Don't make bet!,0,145,A,A,0,7.5,4.75,1.4
+Make bet on a draw!,-42.0,146,A,D,0.259,2.1,3.25,3.75
+Don't make bet!,0,147,H,A,0.002,4,3.5,1.91
+Make bet on a draw!,-42.0,148,H,D,0.117,2.1,3.3,3.6
+Make bet on a draw!,-40.0,149,H,D,0.148,2,3.4,3.75
+Make bet on home team!,30.0,150,H,H,0.929,1.5,4.33,6.5
+Make bet on a draw!,48.0,151,D,D,0.236,2.4,3.2,3.1
+Don't make bet!,0,152,H,D,0.06,1.91,3.6,4
+Don't make bet!,0,153,A,A,0.002,4.75,3.5,1.8
+Make bet on a draw!,-36.0,154,A,D,0.123,1.8,3.6,4.5
+Make bet on a draw!,46.0,155,D,D,0.186,2.3,3.4,3.1
+Make bet on a draw!,-40.0,156,H,D,0.124,2,3.5,3.75
+Make bet on home team!,-44.0,157,A,H,0.362,2.2,3.5,3.2
+Don't make bet!,0,158,A,A,0.032,3,3.3,2.38
+Make bet on a draw!,-38.2,159,H,D,0.221,1.91,3.6,4
+Make bet on a draw!,-40.0,160,H,D,0.137,2,3.5,3.75
+Make bet on home team!,-27.2,161,A,H,0.912,1.36,4.75,9
+Make bet on home team!,24.0,162,H,H,1,1.2,6.5,15
+Don't make bet!,0,163,A,A,0.002,5.5,3.75,1.67
+Make bet on a draw!,-44.0,164,H,D,0.112,2.2,3.4,3.25
+Don't make bet!,0,165,H,D,0.058,2.4,3.4,2.88
+Don't make bet!,0,166,D,D,0.044,3.1,3.2,2.4
+Make bet on home team!,32.4,167,H,H,0.931,1.62,4,5.5
+Make bet on a draw!,40.0,168,D,D,0.147,2,3.5,3.75
+Don't make bet!,0,169,A,A,0,5.5,4,1.62
+Make bet on home team!,30.6,170,H,H,0.633,1.53,4,6.5
+Make bet on home team!,22.8,171,H,H,1,1.14,8,19
+Make bet on a draw!,-42.0,172,H,D,0.249,2.1,3.4,3.5
+Don't make bet!,0,173,A,D,0.065,2,3.5,3.75
+Make bet on home team!,-32.4,174,D,H,0.944,1.62,3.75,6
+Make bet on a draw!,-38.2,175,H,D,0.138,1.91,3.6,4
+Don't make bet!,0,176,A,D,0.016,2.88,3.25,2.5
+Don't make bet!,0,177,A,A,0.002,4.75,3.75,1.73
+Make bet on home team!,26.6,178,H,H,0.999,1.33,5.5,8.5
+Don't make bet!,0,179,D,A,0.001,5,4,1.67
+Don't make bet!,0,180,A,A,0.012,3.75,3.5,2
+Make bet on home team!,28.8,181,H,H,0.835,1.44,4.5,7
+Make bet on a draw!,37.0,182,D,D,0.179,1.85,3.6,4.2
+Make bet on home team!,24.4,183,H,H,1,1.22,6.5,13
+Don't make bet!,0,184,A,A,0,6,3.75,1.62
+Don't make bet!,0,185,A,D,0.071,2.2,3.4,3.25
+Don't make bet!,0,186,D,D,0.052,2.9,3.4,2.38
+Don't make bet!,0,187,H,A,0.042,3.4,3.2,2.25
+Don't make bet!,0,188,H,A,0,6.5,4,1.53
+Make bet on home team!,28.8,189,H,H,0.965,1.44,4.5,7
+Make bet on a draw!,-48.0,190,A,D,0.121,2.4,3.25,3
+Make bet on a draw!,-42.0,191,A,D,0.301,2.1,3.4,3.5
+Make bet on home team!,26.0,192,H,H,1,1.3,5.5,10
+Don't make bet!,0,193,A,A,0,6,4,1.57
+Don't make bet!,0,194,H,D,0.047,2.88,3.25,2.5
+Make bet on a draw!,36.0,195,D,D,0.216,1.8,3.5,4.75
+Don't make bet!,0,196,A,A,0.018,3.5,3.4,2.1
+Don't make bet!,0,197,A,A,0.088,2.88,3.3,2.5
+Don't make bet!,0,198,A,A,0.018,4,3.5,1.91
+Make bet on home team!,25.8,199,H,H,1,1.29,5.5,11
+Don't make bet!,0,200,D,A,0.001,5,3.75,1.7
+Make bet on a draw!,31.4,201,D,D,0.114,1.57,4,6
+Make bet on home team!,26.6,202,H,H,0.999,1.33,5,10
+Make bet on a draw!,-40.0,203,A,D,0.151,2,3.5,3.75
+Don't make bet!,0,204,H,D,0.09,2.1,3.4,3.5
+Don't make bet!,0,205,A,A,0,6,4.2,1.53
+Make bet on home team!,-24.0,206,A,H,1,1.2,6.5,15
+Make bet on home team!,28.0,207,H,H,0.925,1.4,4.5,8.5
+Don't make bet!,0,208,A,D,0.024,3,3.4,2.38
+Don't make bet!,0,209,A,D,0.077,2.55,3.5,2.9
+Make bet on home team!,-31.4,210,D,H,0.755,1.57,4.2,6.5
+Make bet on a draw!,41.0,211,D,D,0.262,2.05,3.5,4
+Don't make bet!,0,212,D,D,0.058,2.2,3.6,3.4
+Don't make bet!,0,213,D,A,0.003,4.5,3.8,1.85
+Don't make bet!,0,214,H,D,0.024,3,3.4,2.5
+Don't make bet!,0,215,A,A,0.002,4.33,3.5,1.95
+Make bet on a draw!,-47.6,216,H,D,0.112,2.38,3.3,3.3
+Make bet on home team!,-52.6,217,A,H,0.414,2.63,3.5,2.8
+Make bet on home team!,38.2,218,H,H,0.946,1.91,3.8,4.2
+Make bet on home team!,-25.0,219,D,H,1,1.25,6.5,15
+Make bet on home team!,26.6,220,H,H,0.999,1.33,5.5,10.5
+Make bet on home team!,25.0,221,H,H,1,1.25,6.5,14
+Make bet on a draw!,-35.0,222,A,D,0.213,1.75,4,5
+Make bet on a draw!,-44.0,223,H,D,0.198,2.2,3.4,3.6
+Make bet on a draw!,35.0,224,D,D,0.129,1.75,4,5
+Make bet on a draw!,42.0,225,D,D,0.19,2.1,3.5,3.75
+Don't make bet!,0,226,A,D,0.094,2.15,3.4,3.8
+Make bet on home team!,38.2,227,H,H,0.759,1.91,3.6,4
+Make bet on away team!,-58.0,228,D,A,0.302,2.9,3.6,2.5
+Don't make bet!,0,229,D,D,0.01,3.6,3.5,2.05
+Make bet on home team!,28.8,230,H,H,0.98,1.44,4.75,8
+Don't make bet!,0,231,A,D,0.075,2.9,3.4,2.6
+Don't make bet!,0,232,D,A,0,7.5,4.5,1.5
+Make bet on a draw!,44.0,233,D,D,0.167,2.2,3.3,3.75
+Make bet on a draw!,50.0,234,D,D,0.174,2.5,3.4,3
+Make bet on home team!,-48.0,235,D,H,0.668,2.4,3.5,3.1
+Make bet on home team!,32.0,236,H,H,0.655,1.6,4.1,6.5
+Make bet on a draw!,-44.0,237,H,D,0.234,2.2,3.5,3.5
+Make bet on home team!,25.0,238,H,H,1,1.25,6.5,14
+Don't make bet!,0,239,D,A,0.001,4.75,3.75,1.83
+Don't make bet!,0,240,D,A,0,7.5,4.5,1.5
+Make bet on home team!,28.8,241,H,H,0.99,1.44,4.5,9
+Make bet on home team!,-28.0,242,D,H,0.946,1.4,5,9
+Don't make bet!,0,243,A,A,0.001,5.5,4.2,1.65
+Don't make bet!,0,244,H,A,0.005,4,3.6,2
+Make bet on a draw!,39.0,245,D,D,0.113,1.95,3.6,4.33
+Don't make bet!,0,246,H,D,0.072,2.5,3.4,3
+Don't make bet!,0,247,H,D,0.088,2.4,3.4,3.2
+Don't make bet!,0,248,D,D,0.064,2.2,3.5,3.5
+Make bet on home team!,-36.6,249,D,H,0.86,1.83,3.9,4.5
+Don't make bet!,0,250,A,A,0.01,3.6,3.4,2.2
+Make bet on home team!,27.2,251,H,H,1,1.36,5.5,9.5
+Don't make bet!,0,252,D,D,0.039,2.3,3.4,3.4
+Don't make bet!,0,253,H,A,0,5.75,4,1.67
+Make bet on a draw!,-38.2,254,H,D,0.181,1.91,3.5,4.6
+Don't make bet!,0,255,A,A,0.004,4.5,3.6,1.91
+Make bet on a draw!,-36.6,256,H,D,0.239,1.83,3.75,4.75
+Make bet on home team!,33.4,257,H,H,0.923,1.67,4,5.75
+Don't make bet!,0,258,H,D,0.086,2.63,3.4,2.88
+Make bet on home team!,35.0,259,H,H,0.904,1.75,3.9,5
+Make bet on home team!,-28.0,260,A,H,0.974,1.4,5,9
+Make bet on home team!,31.4,261,H,H,0.829,1.57,4.4,6
+Make bet on home team!,26.6,262,H,H,1,1.33,5.5,11
+Make bet on a draw!,-44.0,263,H,D,0.356,2.2,3.3,3.75
+Don't make bet!,0,264,H,D,0.008,3.8,3.5,2.1
+Don't make bet!,0,265,A,A,0,7,4.33,1.53
+Don't make bet!,0,266,A,D,0.048,2.63,3.4,2.88
+Make bet on a draw!,-41.0,267,H,D,0.176,2.05,3.5,4
+Make bet on home team!,39.0,268,H,H,0.454,1.95,3.6,4.33
+Make bet on a draw!,-44.0,269,H,D,0.143,2.2,3.5,3.2
+Don't make bet!,0,270,A,A,0.004,3.6,3.5,2.15
+Make bet on home team!,28.0,271,H,H,0.998,1.4,5,9
+Make bet on home team!,27.6,272,H,H,0.986,1.38,5,10
+Make bet on home team!,26.6,273,H,H,1,1.33,5.5,11
+Make bet on a draw!,-37.0,274,A,D,0.174,1.85,3.8,4.5
+Make bet on a draw!,-43.0,275,A,D,0.172,2.15,3.25,4
+Don't make bet!,0,276,D,D,0.068,2.4,3.3,3.3
+Don't make bet!,0,277,H,D,0.061,2.1,3.6,3.75
+Don't make bet!,0,278,A,A,0.011,4.5,3.75,1.85
+Make bet on home team!,46.0,279,H,H,0.578,2.3,3.6,3.25
+Don't make bet!,0,280,A,A,0,7.5,4.5,1.44
+Don't make bet!,0,281,D,D,0.043,2.5,3.4,3
+Make bet on a draw!,-45.0,282,H,D,0.096,2.25,3.4,3.5
+Don't make bet!,0,283,A,D,0.028,2.45,3.4,3.1
+Make bet on a draw!,-49.0,284,H,D,0.212,2.45,3.3,3.2
+Make bet on a draw!,-39.0,285,H,D,0.275,1.95,3.8,4
+Make bet on a draw!,-36.6,286,H,D,0.252,1.83,3.7,4.8
+Make bet on a draw!,-46.0,287,H,D,0.215,2.3,3.4,3.4
+Don't make bet!,0,288,H,D,0.033,3.9,3.6,2.05
+Make bet on home team!,23.4,289,H,H,1,1.17,9,19
+Don't make bet!,0,290,H,A,0.007,4.2,3.8,1.91
+Don't make bet!,0,291,D,D,0.085,2.5,3.3,3.1
+Don't make bet!,0,292,A,A,0.008,3.4,3.5,2.25
+Make bet on home team!,28.0,293,H,H,0.999,1.4,5,9
+Make bet on a draw!,41.0,294,D,D,0.147,2.05,3.5,4
+Make bet on home team!,-30.0,295,A,H,0.965,1.5,4.5,7.5
+Don't make bet!,0,296,H,D,0.06,2.3,3.4,3.4
+Make bet on home team!,25.0,297,H,H,1,1.25,6.5,15
+Make bet on home team!,31.4,298,H,H,0.853,1.57,3.9,7.5
+Make bet on home team!,26.6,299,H,H,1,1.33,5.5,11
+Don't make bet!,0,300,H,A,0.003,3.5,3.5,2.2
+Don't make bet!,0,301,A,A,0,6,4,1.65
+Don't make bet!,0,302,A,A,0.009,3.4,3.4,2.3
+Don't make bet!,0,303,H,D,0.057,2.3,3.4,3.4
+Make bet on a draw!,-39.0,304,H,D,0.159,1.95,3.6,4.33
+Don't make bet!,0,305,A,A,0.01,5,4,1.75
+Make bet on home team!,40.0,306,H,H,0.535,2,3.6,4
+Don't make bet!,0,307,D,D,0.079,2.63,3.3,2.9
+Don't make bet!,0,308,A,A,0.015,3.3,3.6,2.25
+Don't make bet!,0,309,A,D,0.081,2.1,3.4,4
+Don't make bet!,0,310,A,A,0.006,4.1,3.7,1.95
+Make bet on home team!,27.2,311,H,H,1,1.36,5,11
+Make bet on home team!,-27.2,312,D,H,0.995,1.36,5.5,9
+Don't make bet!,0,313,H,D,0.068,2.1,3.5,3.8
+Don't make bet!,0,314,D,D,0.08,2.38,3.4,3.25
+Make bet on home team!,-44.0,315,D,H,0.588,2.2,3.4,3.6
+Make bet on home team!,-46.0,316,A,H,0.76,2.3,3.5,3.3
+Make bet on home team!,25.0,317,H,H,1,1.25,6.5,14
+Don't make bet!,0,318,D,D,0.077,2.3,3.3,3.5
+Make bet on home team!,28.8,319,H,H,0.969,1.44,4.75,8
+Don't make bet!,0,320,D,A,0,8,4.75,1.45
+Make bet on a draw!,38.2,321,D,D,0.097,1.91,3.75,4.2
+Make bet on a draw!,-39.0,322,A,D,0.166,1.95,3.5,4.5
+Don't make bet!,0,323,A,A,0,7,3.9,1.6
+Make bet on home team!,-35.0,324,D,H,0.709,1.75,3.9,5
+Don't make bet!,0,325,A,A,0.004,4.75,3.8,1.8
+Make bet on home team!,25.0,326,H,H,1,1.25,6.5,14
+Don't make bet!,0,327,D,A,0,5.5,3.9,1.7
+Don't make bet!,0,328,A,A,0.004,5,4,1.75
+Make bet on a draw!,-35.0,329,H,D,0.142,1.75,3.8,5.25
+Make bet on a draw!,-45.0,330,A,D,0.138,2.25,3.4,3.5
+Don't make bet!,0,331,H,D,0.016,3.4,3.4,2.3
+Don't make bet!,0,332,D,D,0.041,2.38,3.5,3.1
+Make bet on a draw!,45.0,333,D,D,0.114,2.25,3.5,3.4
+Don't make bet!,0,334,H,D,0.085,2.3,3.5,3.3
+Make bet on away team!,-43.0,335,D,A,0.181,2.15,3.6,3.6
+Make bet on away team!,-65.0,336,H,A,0.313,3.25,3.6,2.3
+Make bet on home team!,25.0,337,H,H,1,1.25,6.75,13
+Make bet on home team!,30.0,338,H,H,0.68,1.5,4.5,7.5
+Make bet on home team!,25.8,339,H,H,1,1.29,6,12
+Don't make bet!,0,340,A,D,0.065,2.88,3.6,2.5
+Make bet on a draw!,-37.0,341,A,D,0.083,1.85,3.75,4.6
+Make bet on a draw!,-45.0,342,H,D,0.164,2.25,3.3,3.6
+Don't make bet!,0,343,D,A,0.005,3.8,3.6,2.05
+Make bet on away team!,-45.0,344,D,A,0.322,2.25,3.6,3.3
+Make bet on home team!,27.2,345,H,H,1,1.36,5.5,9
+Don't make bet!,0,346,D,A,0.104,2.55,3.5,2.88
+Make bet on a draw!,-46.0,347,H,D,0.099,2.3,3.4,3.4
+Make bet on a draw!,-34.6,348,A,D,0.396,1.73,3.9,5.25
+Don't make bet!,0,349,A,D,0.034,2.55,3.3,3
+Don't make bet!,0,350,A,A,0,8,4.75,1.44
+Don't make bet!,0,351,D,A,0.001,5.25,3.8,1.75
+Make bet on home team!,28.8,352,H,H,0.984,1.44,4.75,8
+Make bet on a draw!,-49.0,353,A,D,0.14,2.45,3.5,3
+Don't make bet!,0,354,D,D,0.069,2.38,3.4,3.25
+Make bet on a draw!,39.0,355,D,D,0.357,1.95,3.6,4.2
+Make bet on home team!,-44.0,356,A,H,0.698,2.2,3.5,3.5
+Make bet on a draw!,42.0,357,D,D,0.239,2.1,3.3,4
+Make bet on home team!,28.0,358,H,H,0.99,1.4,5,9
+Make bet on a draw!,-36.6,359,A,D,0.14,1.83,3.75,4.75
+Make bet on home team!,-39.0,360,D,H,0.787,1.95,3.75,4
+Don't make bet!,0,361,A,A,0.005,4.5,3.8,1.85
+Make bet on home team!,30.0,362,H,H,0.765,1.5,4.5,7.5
+Don't make bet!,0,363,A,A,0.043,3.9,3.6,2.05
+Make bet on home team!,26.0,364,H,H,1,1.3,5.75,12
+Don't make bet!,0,365,H,D,0.046,2.2,3.4,3.6
+Don't make bet!,0,366,A,D,0.041,3.4,3.4,2.3
+Don't make bet!,0,367,A,A,0.005,4.5,3.6,1.91
+Don't make bet!,0,368,D,D,0.07,2.8,3.2,2.8
+Make bet on home team!,28.0,369,H,H,0.999,1.4,5.5,8
+Don't make bet!,0,370,A,A,0,6,4.33,1.6
+Make bet on home team!,34.0,371,H,H,0.913,1.7,4,5.5
+Make bet on home team!,25.0,372,H,H,1,1.25,7,12
+Make bet on home team!,-26.6,373,A,H,1,1.33,5.5,11
+Don't make bet!,0,374,A,A,0.002,6,4.6,1.55
+Make bet on a draw!,35.0,375,D,D,0.155,1.75,3.8,5.25
+Make bet on a draw!,-36.0,376,A,D,0.069,1.8,3.8,4.75
+Make bet on home team!,25.8,377,H,H,1,1.29,6,12
+Don't make bet!,0,378,D,A,0.003,4.5,3.9,1.83
+Make bet on a draw!,-33.4,379,H,D,0.187,1.67,4,5.75
+Don't make bet!,0,380,D,D,0.043,2.15,3.6,3.6
+-346.6
