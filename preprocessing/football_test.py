@@ -117,7 +117,7 @@ class FootballTestSuite(unittest.TestCase):
     	# exercise
     	team.addGoals(3, 1)
     	team.addGoals(2, 0)
-    	diff = team.getGoalDiff()
+    	diff = team.getCurrentGoalDiff(2)
     	#verify
     	self.assertEqual(diff, 4)
 

@@ -6,6 +6,7 @@ from football import Constants
 
 # global settings
 formRange = 3
+goalDiffRange = 6
 
 class FeatureGen(object):
 
@@ -75,6 +76,8 @@ class FeatureGen(object):
 				self.setShots(game, rowGame, home, away)
 				# set the game odds
 				self.setOdds(game, rowGame)
+				# set the goal difference
+				self.setMatchRating(game, rowGame, home, away)
 				# add the game to the list
 				self.games.append(game)
 				# update teams based on result
@@ -122,6 +125,26 @@ class FeatureGen(object):
 			float(rowGame.getAttr(Constants.homeTargetShots)))
 		away.addShots(float(rowGame.getAttr(Constants.awayShots)), 
 			float(rowGame.getAttr(Constants.awayTargetShots)))
+
+	def setMatchRating(self, game, rowGame, home, away):
+		hDiff = home.getCurrentGoalDiff(goalDiffRange)
+		aDiff = away.getCurrentGoalDiff(goalDiffRange)
+		rating = hDiff - aDiff
+		# set the rating
+		if (rating > 3):
+			game.setAttr(Constants.matchRating, Constants.homeWin)
+		elif (rating < -3):
+			game.setAttr(Constants.matchRating, Constants.awayWin)
+		else:
+			game.setAttr(Constants.matchRating, Constants.draw)
+		# set the goal difference
+		game.setAttr(Constants.goalDiff, rating)
+
+		# update the goal difference
+		hGoals = int(rowGame.getAttr(Constants.homeGoals))
+		aGoals = int(rowGame.getAttr(Constants.awayGoals))
+		home.addGoals(hGoals, aGoals)
+		away.addGoals(aGoals, hGoals)
 
 	def setResult(self, game, rowGame, home, away):
 		# get the result

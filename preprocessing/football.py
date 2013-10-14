@@ -108,7 +108,7 @@ class Team(object):
 		self.name = name
 		self.shots = [] # total shots
 		self.targetShots = [] # shots on target
-		self.goalDiff = 0
+		self.goalDiff = []
 
 	def addPoints(self, points):
 		self.results.append(points)
@@ -118,11 +118,22 @@ class Team(object):
 		self.targetShots.append(onTarget)
 
 	def addGoals(self, scored, conceded):
-		self.goalDiff += scored
-		self.goalDiff -= conceded
+		self.goalDiff.append(scored - conceded)
 
-	def getGoalDiff(self):
-		return self.goalDiff
+	def getCurrentGoalDiff(self, games):
+		rounds = len(self.goalDiff)
+		diff = 0
+
+		# adjust the range of games considered if nessessary
+		adjustedRange = games
+		if rounds < games:
+			adjustedRange = rounds
+
+		# calculate form points total
+		for i in range(-adjustedRange, 0):
+			diff += self.goalDiff[i]
+
+		return diff
 
 	""" returns shots per game for the team
 	"""
@@ -203,8 +214,8 @@ class Constants(object):
 	oddsH = "B365H"
 	oddsD = "B365D"
 	oddsA = "B365A"
-	homeGoalDiff = "GoalDiffH"
-	awayGoalDiff = "GoalDiffA"
+	matchRating = "MatchRating"
+	goalDiff = "GoalDiff"
 	homeGoals = "FTHG"
 	awayGoals = "FTAG"
 
@@ -220,6 +231,6 @@ class Constants(object):
 	homeForm, awayForm, homePosition, awayPosition,
 	homeShots + perGame, awayShots + perGame,
 	homeTargetShots + perGame, awayTargetShots + perGame,
-	homeGoalDiff, awayGoalDiff,
+	matchRating, goalDiff,
 	oddsH, oddsD, oddsA,
 	result]
