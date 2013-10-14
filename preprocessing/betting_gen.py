@@ -6,12 +6,12 @@ from betting import Constants
 
 # global settings
 formRange = 3
-threshold = 0.5
 
 class FeatureGen(object):
 
-        def __init__(self, path):
+        def __init__(self, path, threshold):
                 self.path = path
+		self.threshold = threshold
                 self.games = []
                 self.features = Constants.features
                 self.columns = []
@@ -90,7 +90,7 @@ class FeatureGen(object):
                 game.setAttr(Constants.oddsH, rowGame.getAttr(Constants.oddsH))
                 game.setAttr(Constants.oddsD, rowGame.getAttr(Constants.oddsD))
                 game.setAttr(Constants.oddsA, rowGame.getAttr(Constants.oddsA))
-		return game.setBet(Constants.predicted, Constants.probability, threshold, Constants.oddsH, Constants.oddsA, Constants.oddsD)
+		return game.setBet(Constants.predicted, Constants.probability, self.threshold, Constants.oddsH, Constants.oddsA, Constants.oddsD)
                 #game.setAttr(Constants.result, rowGame.getAttr(Constants.result))
 
 
@@ -102,7 +102,7 @@ def main():
         # get the csv path
         path = sys.argv[2]
         threshold = float(sys.argv[1])
-        f = FeatureGen(path)
+        f = FeatureGen(path, threshold)
         # run the feature generator
         f.generate()
 
