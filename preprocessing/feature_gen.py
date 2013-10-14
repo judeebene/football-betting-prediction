@@ -75,6 +75,8 @@ class FeatureGen(object):
 				self.setShots(game, rowGame, home, away)
 				# set the game odds
 				self.setOdds(game, rowGame)
+				# set the goal difference
+				self.setGoalDifference(game, rowGame, home, away)
 				# add the game to the list
 				self.games.append(game)
 				# update teams based on result
@@ -122,6 +124,17 @@ class FeatureGen(object):
 			float(rowGame.getAttr(Constants.homeTargetShots)))
 		away.addShots(float(rowGame.getAttr(Constants.awayShots)), 
 			float(rowGame.getAttr(Constants.awayTargetShots)))
+
+	def setGoalDifference(self, game, rowGame, home, away):
+		hDiff = home.getGoalDiff()
+		aDiff = away.getGoalDiff()
+		game.setAttr(Constants.homeGoalDiff, hDiff)
+		game.setAttr(Constants.awayGoalDiff, aDiff)
+		# update the goal difference
+		hGoals = int(rowGame.getAttr(Constants.homeGoals))
+		aGoals = int(rowGame.getAttr(Constants.awayGoals))
+		home.addGoals(hGoals, aGoals)
+		away.addGoals(aGoals, hGoals)
 
 	def setResult(self, game, rowGame, home, away):
 		# get the result
