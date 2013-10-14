@@ -215,6 +215,7 @@ class Constants(object):
 	oddsD = "B365D"
 	oddsA = "B365A"
 	matchRating = "MatchRating"
+	goalDiff = "GoalDiff"
 	homeGoals = "FTHG"
 	awayGoals = "FTAG"
 
@@ -230,6 +231,6 @@ class Constants(object):
 	homeForm, awayForm, homePosition, awayPosition,
 	homeShots + perGame, awayShots + perGame,
 	homeTargetShots + perGame, awayTargetShots + perGame,
-	matchRating,
+	matchRating, goalDiff,
 	oddsH, oddsD, oddsA,
 	result]
