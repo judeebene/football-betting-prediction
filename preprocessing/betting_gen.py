@@ -81,7 +81,6 @@ class FeatureGen(object):
 				total += net
                                 # print the game
                                 sys.stdout.write(str(total) + "," + buildStr + "," + str(net) + "," + game.toCSVRow())
-			sys.stdout.write(str(total) + "\n")
 
         def setCols(self, game, rowGame):
                 game.setAttr(Constants.inst, rowGame.getAttr(Constants.inst))
@@ -103,7 +102,6 @@ def main():
         # get the csv path
         path = sys.argv[2]
         threshold = float(sys.argv[1])
-        print threshold
         f = FeatureGen(path)
         # run the feature generator
         f.generate()
