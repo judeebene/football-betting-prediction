@@ -5,3 +5,4 @@ proposal/*
 !proposal/proposal.tex
 
 *.pyc
+*.py~
