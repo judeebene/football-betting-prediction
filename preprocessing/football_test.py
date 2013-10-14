@@ -110,6 +110,18 @@ class FootballTestSuite(unittest.TestCase):
     	# verify
     	self.assertEqual(shots, 2.5)
 
+    def test_team_getGoalDiff_ShouldGetDiff(self):
+    	# set up
+    	teamname = "Arsenal"
+    	team = football.Team(teamname)
+    	# exercise
+    	team.addGoals(3, 1)
+    	team.addGoals(2, 0)
+    	diff = team.getGoalDiff()
+    	#verify
+    	self.assertEqual(diff, 4)
+
+
 	# Game unit tests
 
     def test_game_constructor_shouldCreateGame(self):

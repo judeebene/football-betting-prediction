@@ -108,6 +108,7 @@ class Team(object):
 		self.name = name
 		self.shots = [] # total shots
 		self.targetShots = [] # shots on target
+		self.goalDiff = 0
 
 	def addPoints(self, points):
 		self.results.append(points)
@@ -115,6 +116,13 @@ class Team(object):
 	def addShots(self, total, onTarget):
 		self.shots.append(total)
 		self.targetShots.append(onTarget)
+
+	def addGoals(self, scored, conceded):
+		self.goalDiff += scored
+		self.goalDiff -= conceded
+
+	def getGoalDiff(self):
+		return self.goalDiff
 
 	""" returns shots per game for the team
 	"""
@@ -195,6 +203,10 @@ class Constants(object):
 	oddsH = "B365H"
 	oddsD = "B365D"
 	oddsA = "B365A"
+	homeGoalDiff = "GoalDiffH"
+	awayGoalDiff = "GoalDiffA"
+	homeGoals = "FTHG"
+	awayGoals = "FTAG"
 
 	perGame = "PG"
 
@@ -208,5 +220,6 @@ class Constants(object):
 	homeForm, awayForm, homePosition, awayPosition,
 	homeShots + perGame, awayShots + perGame,
 	homeTargetShots + perGame, awayTargetShots + perGame,
+	homeGoalDiff, awayGoalDiff,
 	oddsH, oddsD, oddsA,
 	result]
