@@ -41,12 +41,13 @@ class FeatureGen(object):
 
         def printFeatures(self):
                 fLine = ""
-		sys.stdout.write("bet,")
+		sys.stdout.write("total,bet,net,")
                 for feature in self.features : fLine += feature + ","
                 sys.stdout.write(fLine[:-1] + "\n")
 
         def generate(self):
                 # open the csv
+		total = 0
                 with open(self.path, 'rb') as statCsv:
                         reader = csv.reader(statCsv)
                         # print feature row
@@ -63,8 +64,23 @@ class FeatureGen(object):
                                 buildStr = self.setCols(game, rowGame)
                                 # add the game to the list
                                 self.games.append(game)
+				result = rowGame.getAttr(Constants.actual) == rowGame.getAttr(Constants.predicted)
+				net = 0
+				if buildStr != "Don't make bet!" and result:
+					if rowGame.getAttr(Constants.actual) == "H":
+						net = float(rowGame.getAttr(Constants.oddsH)) * 20.0 - 20.0
+					elif rowGame.getAttr(Constants.actual) == "A":
+						net = float(rowGame.getAttr(Constants.oddsA)) * 20.0 - 20.0
+					elif rowGame.getAttr(Constants.actual) == "D":
+						net = float(rowGame.getAttr(Constants.oddsD)) * 20.0 - 20.0
+				elif buildStr != "Don't make bet!" and not result:
+					net = -20
+				else:
+					net = 0
+				total += net
                                 # print the game
-                                sys.stdout.write(buildStr + "," + game.toCSVRow())
+                                sys.stdout.write(str(total) + "," + buildStr + "," + str(net) + "," + game.toCSVRow())
+			sys.stdout.write(str(total) + "\n")
 
         def setCols(self, game, rowGame):
                 game.setAttr(Constants.inst, rowGame.getAttr(Constants.inst))
@@ -74,7 +90,7 @@ class FeatureGen(object):
                 game.setAttr(Constants.oddsH, rowGame.getAttr(Constants.oddsH))
                 game.setAttr(Constants.oddsD, rowGame.getAttr(Constants.oddsD))
                 game.setAttr(Constants.oddsA, rowGame.getAttr(Constants.oddsA))
-		return game.setBet(Constants.predicted, Constants.probability, 0.4, Constants.oddsH, Constants.oddsA, Constants.oddsD)
+		return game.setBet(Constants.predicted, Constants.probability, 0.0, Constants.oddsH, Constants.oddsA, Constants.oddsD)
                 #game.setAttr(Constants.result, rowGame.getAttr(Constants.result))
 
 

@@ -56,11 +56,11 @@ class Game(object):
         def setNaiveBet(self, prediction, chance, thresh):
                 # bets depeding on what has highest chance to win
                 chanceType = self.attributes[prediction]
-                if chanceType == "H" and chance >= thresh:
+                if chanceType == "H" and float(self.attributes[chance]) >= thresh:
                         return "Make bet on home team!"
-                elif chanceType == "A" and chance >= thresh:
+                elif chanceType == "A" and float(self.attributes[chance]) >= thresh:
                         return "Make bet on away team!"
-                elif chanceType == "D" and chance >= thresh:
+                elif chanceType == "D" and float(self.attributes[chance]) >= thresh:
                         return "Make bet on a draw!"
                 else: # if under threshold dont bet
                         return "Don't make bet!"
@@ -70,11 +70,11 @@ class Game(object):
                 # bets depending on weighted value between chance to win and betting ratio
                 chanceType = self.attributes[prediction]
                 if chanceType == "H":
-                        weight = (1 - (1 / float(self.attributes[winH])) + float(self.attributes[chance])) / 2
+                        weight = (1 - (1 / float(self.attributes[winH]) ) + float(self.attributes[chance])) / 2
                 elif chanceType == "A":
-                        weight = (1 - (1 / float(self.attributes[winA])) + float(self.attributes[chance])) / 2
+                        weight = (1 - (1 / float(self.attributes[winA]) ) + float(self.attributes[chance])) / 2
                 else:
-                        weight = (1 - (1 / float(self.attributes[winD])) + float(self.attributes[chance])) / 2
+                        weight = (1 - (1 / float(self.attributes[winD]) ) + float(self.attributes[chance])) / 2
                 
                 if weight >= thresh and chanceType == "H":
                         return "Make bet on home team!"
